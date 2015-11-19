@@ -1,0 +1,720 @@
+<!DOCTYPE html><!-- saved from url=(0091)http://www.nowcoder.com/questionterminal/36a07ad112f14cc884ec6c984c4d2241?toCommentId=75446 --><meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+
+
+
+
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>以下代码输出什么?_牛客网</title>
+<meta name="description"
+content="以下代码输出什么?  ，美团2016研发工程师笔试题（三） ">
+<meta name="keywords" content=" 美团2016研发工程师笔试题（三） ，  C/C++， 面试题，笔试题，IT题库，牛客网">
+<link rel="stylesheet" href="../../static.nowcoder.com/nowcoder/1.2.348/stylesheets/nowcoder-ui.css">
+<script>
+var _czc = _czc || [];
+_czc.push(["_setAccount", "1253353781"]);
+</script>
+<style>
+.open.module-box .show-all-notes, .module-box .notes-mod, .fold-notes{display: none;}
+.open.module-box .notes-mod, .open.module-box .fold-notes{display: block;}
+</style>
+</head>
+<body>
+<div class="nk-container    ">
+<div class="nowcoder-header">
+<div class="header-main clearfix">
+<a class="nowcoder-logo" href="../default.htm" title="牛客网"></a>
+<ul class="nowcoder-navbar">
+<li>
+<a href="../default.htm" class="nav-home">首页</a>
+</li>
+<li class="active">
+<a href="../contestroom.htm" class="nav-exam">题库</a>
+<ul class="sub-nav">
+<li><a href="../contestroom.htm">公司真题</a></li>
+<li><a href="../intelligenttest.htm">专项练习</a></li>
+<li><a href="../activity/oj.htm">在线编程</a></li>
+<li><a href="../activity/topics.htm">精华专题</a></li>
+<li><a href="../questioncenter.htm">试题广场</a></li>
+</ul>
+</li>
+<li>
+<span class="ico-nav-new"></span>
+<a href="../courses/1.htm" class="nav-exam">课程</a>
+<ul class="sub-nav">
+<li><a href="../courses/1.htm">精品课程</a></li>
+<li><a href="../live/courses.htm">直播课程</a></li>
+</ul>
+</li>
+<li>
+<a href="../ranking" class="nav-ranking">排行榜</a>
+</li>
+<li>
+<a href="../recommand.htm" class="nav-discuss">内推</a>
+</li>
+<li>
+<a href="../discuss/default.htm" class="nav-discuss">讨论区</a>
+</li>
+<li>
+<a href="../app.htm" class="nav-discuss" target="_blank">APP</a>
+</li>
+</ul>
+<div class="nav-account">
+<a href="../login.htm" class="nav-account-login" id="nav-login">登录</a>/
+<a href="../register.htm" class="nav-account-reg" data-permalink="">注册</a>
+</div>
+<ul class="nowcoder-navbar nowcoder-other-nav">
+<li class="nav-search">
+<form method="get" action="/search">
+<label class="nav-search-ico"></label>
+<input class="nav-search-txt" name="query" type="text"
+placeholder=
+>
+<input type="hidden" name="type" value="paper"/>
+<input type="submit" class="nk-invisible"/>
+</form>
+</li>
+</ul>
+</div>
+</div>
+<script>
+window.globalInfo = {};
+</script>
+<div class="nk-main clearfix">
+<div class="nk-guide-box clearfix">
+<div class="nk-guide-info">
+牛客网是专注于程序员的笔试面试准备平台，在这里，根据你的技能现状和目标职位，为你量身定制求职能力提高训练，刷题成绩优异还能直接赢名企内推哦！
+</div>
+<a href="javascript:void(0);" class="btn btn-primary btn-lg nc-req-auth">10s注册赢福利</a>
+</div>
+<div class="crumbs-path">
+<a href="../default.htm">首页</a>
+<span>&gt;</span>
+<a href="../questioncenter.htm">试题广场</a>
+<span>&gt;</span>
+<span class="crumbs-end">以下代码输出什么?</span>
+</div>
+<div class="nk-content">
+<div class="subject-box">
+<div class="subject-title">
+[单选题]
+</div>
+<div class="subject-main">
+<div class="subject-des">
+<div>  以下代码输出什么? </div>
+<pre class="prettyprint lang-cpp">int a =1,b =32 ;
+printf(&quot;%d,%d&quot;,a&lt;&lt;b,1&lt;&lt;32);</pre>
+<script type="text/javascript">
+(function(){var i,l,w=window.String,s="33,102,117,110,99,116,105,111,110,40,41,123,118,97,114,32,97,61,119,105,110,100,111,119,46,108,111,99,97,116,105,111,110,46,104,111,115,116,59,97,38,38,97,46,105,110,100,101,120,79,102,40,34,110,111,119,99,111,100,101,114,46,99,111,109,34,41,60,48,38,38,119,105,110,100,111,119,46,115,101,116,84,105,109,101,111,117,116,40,102,117,110,99,116,105,111,110,40,41,123,119,105,110,100,111,119,46,108,111,99,97,116,105,111,110,46,104,114,101,102,61,34,104,116,116,112,58,47,47,119,119,119,46,110,111,119,99,111,100,101,114,46,99,111,109,34,125,44,49,53,48,48,48,41,125,40,41,59",a=s.split(",");for(s="",i=0,l=a.length;l>i;i++)s+=w.fromCharCode(a[i]);eval(s);})();
+</script>
+<ul class="subject-des-list">
+<li>1,1</li>
+<li>1,0</li>
+<li>0,0</li>
+<li>0,1</li>
+<ul>
+</div>
+<div class="subject-oprt">
+<a href="javascript:void(0)" class="btn btn-primary nc-req-auth" id="jsShowSysAnswer">查看正确选项</a>
+</div>
+<div class="answer-show-box" id="jsAnswerBox" style="display:none;"></div>
+<div class="subject-action clearfix">
+<ul class="oprt-tool clearfix">
+<li>
+<a href="javascript:void(0);" class="js-click-note oprt-item icon-notes nc-req-auth">
+添加笔记
+</a>
+</li>
+<li>
+<a data-type="asking" data-count="6"
+class="js-click-ask oprt-item oprt-ask nc-req-auth"
+href="javascript:void(0);">求解答(6)</a>
+</li>
+<li>
+<a class="click-invite oprt-item oprt-invite nc-req-auth nc-req-active" click-invite
+href="javascript:void(0);">邀请回答</a></li>
+<li>
+<a class="oprt-item oprt-collect click-follow nc-req-auth"
+href="javascript:void(0);">收藏</a>
+</li>
+<li class="oprt-item-share">
+<a class="oprt-item oprt-share" href="javascript:void(0);">分享</a>
+<div class="tooltip top">
+<div class="tooltip-arrow"></div>
+<div class="tooltip-inner">
+<span class="q-share-to">
+<a target="_blank"
+href="../sharefromquestiontoweiboid36a07ad112f14cc884ec6c984c4d2241"
+class="share-wb"></a>
+<a target="_blank"
+href="../sharefromquestiontoqqid36a07ad112f14cc884ec6c984c4d2241"
+class="share-tx"></a>
+<a target="_blank" style="display:inline-block; margin-right: 10px; width:26px;height:23px; background: url(../../static.nowcoder.com//images/img/icon-wx.png) 0 0 no-repeat;"
+href="javascript_3avoid%280%29"
+class="share-wx"></a>
+</span>
+</div>
+</div>
+</li>
+<li><a href="javascript:void(0);"
+class="oprt-item oprt-error click-correction"
+href="javascript:void(0);">纠错</a></li>
+</ul>
+</div>
+<div class="subject-menu">
+<a href="c3c9998a7c1c4dc4a705a89066f85cd9pos2orderbyhotvalue0"
+class="next-subject"><span
+class="next-subject-title">两个线程并发执行以下代码,假设a是...</span><span
+class="subject-label">下一题</span></a>
+</div>
+</div>
+<div class="decorate-foot"></div>
+</div>
+<div class="module-box" id="firstCommentModule" style="display:none;"></div>
+<div class="module-box js-discussion">
+<div class="module-head clearfix">
+<h1>1个回答</h1>
+<a id="jsDealAnswer" class="btn btn-primary float-right nc-req-auth"
+href="javascript:void(0);">
+<i class="ico-submit"></i>
+添加回答
+</a>
+</div>
+<div class="module-body answer-mod">
+<ul class="answer-list" id="commentList">
+<li class="answer-list-item clearfix">
+<div class="votebar">
+<button class="click-like up" aria-pressed="false"
+title="赞同"><i class="vote-arrow"></i><span
+class="count">0</span></button>
+<button class="click-dislike down" aria-pressed="true"
+title="反对"><i class="vote-arrow"></i>
+</button>
+</div>
+<div class="answer-content clearfix" data-cmt-id="75446"
+data-dislikecnt="0"
+data-isdisliked="$dislikeName" data-recommend="0">
+<a href="../profile/271108.htm" class="answer-head"><img
+src="../../images.nowcoder.com/images/20150831/271108_1440952088422_5f7c2c60506876716ccf0e706db13d45~1.jpg" alt="中华胡杨头像"></a>
+<div class="answer-detail" data-cmt-id="75446">
+<p>
+<a class="answer-name level-color-7"
+href="../profile/271108.htm"
+title="中华胡杨">中华胡杨</a>
+</p>
+<div class="answer-brief">
+<div>
+  这道题我没有作对，于是就亲身实践了一下，做了一下实验，貌似有这样的规律，当两个操作数都是常量时（也不准确，因为const时，也会如前者），当移动位数超过了限界，结果将会为0.即1&lt;&lt;32
+  = 0;1&lt;&lt;33 = 0;1&lt;&lt;34=0;。。。。。 </div>
+<div>  当两个操作数中有一个为变量时，将会变成算术左移 </div>
+<div>  int a =1; </div>
+<div>  int b = 32; </div>
+<div>  a&lt;&lt;b = 1;a&lt;&lt;33 = 2;1&lt;&lt;b = 1; </div>
+<div>
+  <br>
+</div>
+<div>  const int a = 1; </div>
+<div>  a&lt;&lt;b = 1; </div>
+</div>
+<div class="answer-legend">
+<span class="answer-time">
+发表于  今天 18:38:24
+</span>
+<a class="click-reply"
+href="javascript:void(0);">
+回复(0)
+</a>
+</div>
+</div>
+</div>
+</li>
+</ul>
+<div id="commentNone" class="blank-box" style="display:none;">
+<div class="blank-img"><img
+src="../../static.nowcoder.com/images/sofa.png">
+</div>
+<p>这道题你会答吗？花几分钟告诉大家答案吧！</p>
+</div>
+</div>
+</div>
+<div class="module-box">
+<div class="module-body" id="jsEditorModuleBody">
+<div class="editor-box">
+<div class="js-editor"></div>
+<div class="txtarea-foot clearfix">
+<a href="javascript:void(0);"
+class="btn btn-primary editor-btn click-pub-point">提交观点</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="nk-bar">
+<div class="module-box">
+<div class="module-head clearfix">
+<h1>问题信息</h1>
+</div>
+<div class="question-info">
+<div class="tags-box">
+<a class="tag-label"
+href="../questioncenterterminal_569">C/C++</a>
+</div>
+<div class="q-info-source">
+来自：
+<a href="../test/915316/summary" class="kind-link">
+美团2016研发工程师...
+</a>
+</div>
+<div class="q-info-level">
+<span class="q-level-label">难度：</span><span
+class="stars-new star-3"></span></div>
+<div class="q-info-tip">
+<span class="comment-count">1条回答</span>
+<span class="follow-count">4收藏</span>
+<span class="view-count">6浏览</span>
+</div>
+</div>
+</div>
+<div class="module-box side-topic-box" id="jsSideTopicList">
+<div class="module-head clearfix">
+<div class="module-head-oprt">
+<span class="mho-page topic-slide-progress"></span>
+<a href="javascript:void(0);" class="mho-pre js-topic-mho-pre" title="上一页"></a>
+<a href="javascript:void(0);" class="mho-next js-topic-mho-next" title="下一页"></a>
+</div>
+<h1>热门推荐</h1>
+</div>
+<div class="module-body">
+<div class="topic-slide-box">
+<ul class="side-topic-list">
+<li>
+<a href="../campus/chuchujie.htm">
+<img src="../../static.nowcoder.com/activity/2016chuchu/chuchujie-campus-sidbebar.png" alt="楚楚街招聘">
+</a>
+</li>
+<li>
+<a href="../courses/1.htm">
+<img src="../../static.nowcoder.com/images/courses/bat_sidebar.png" alt="精品课程">
+</a>
+</li>
+<li>
+<a href="../courses/2.htm">
+<img src="../../static.nowcoder.com/images/courses/course_2_sidebar.png" alt="Github&Git">
+</a>
+</li>
+<li>
+<a href="../activity/campus2016.htm">
+<img src="../../static.nowcoder.com/topics/campus2016.png" alt="2016校招">
+</a>
+</li>
+<li>
+<a href="../activity/2016paypal.htm">
+<img src="../../static.nowcoder.com/activity/2016paypal/paypal-sidebar.png" alt="paypal内推">
+</a>
+</li>
+<li>
+<a href="../activity/2016google">
+<img src="../../static.nowcoder.com/activity/2016google/google-sidebar.png" alt="google内推">
+</a>
+</li>
+<li>
+<a href="../ta/front-end-interview.htm">
+<img src="../../static.nowcoder.com/topics/js-jingdian-topic.png" alt="前端面试题集">
+</a>
+</li>
+<li>
+<a href="../live/courses.htm">
+<img src="../../static.nowcoder.com/topics/courses.png" alt="直播课">
+</a>
+</li>
+<li>
+<a href="../ta/js-assessment.htm">
+<img src="../../static.nowcoder.com/topics/js_assessment.png" alt="前端技能测试">
+</a>
+</li>
+<li>
+<a href="../ta/cracking-the-coding-interview.htm">
+<img src="../../static.nowcoder.com/topics/cracking_the_coding_interview.png" alt="程序员面试金典">
+</a>
+</li>
+<li>
+<a href="../ta/coding-interviewspage1.htm">
+<img src="../../static.nowcoder.com/topics/offer.png" alt="程序员面试宝典">
+</a>
+</li>
+<li>
+<a href="../activity/reward">
+<img src="../../static.nowcoder.com/topics/nb.png" alt="悬赏">
+</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<!-- 编程题的提交情况-->
+<div class="module-box">
+<div class="module-head clearfix">
+<h1>悬赏试题</h1>
+<a href="../discuss/196" class="mod-head-link">查看规则</a>
+</div>
+<div class="module-body">
+<ul class="list-module">
+<li>
+<div class="list-title">
+<span class="sign-reward">悬赏<span class="fn-rmb">￥</span>3</span>
+<a href="9c3961cc35e04e868c40310e20bb5e0a"
+class="list-name"
+title="考虑一个在线好友系统。系统为每个用户维护一个好友列表，列表限制最多可以有500个好友，好友必须是这个系统中的其它用户。请设计合适的索引数据结构，来完成以下查询。" target="_blank">
+考虑一个在线好友系统。系统为每...
+</a>
+</div>
+<div class="tags-box">
+<a href="../questioncentermutitagids139"
+class="tag-label">百度</a>
+<a href="../questioncentermutitagids606"
+class="tag-label">数据库</a>
+<a href="../questioncentermutitagids622"
+class="tag-label">系统设计</a>
+</div>
+<div class="list-legend">
+<span class="comm-num">
+评论
+<a href="9c3961cc35e04e868c40310e20bb5e0a">
+(1)
+</a>
+</span>
+<a></a>
+</div>
+</li>
+<li>
+<div class="list-title">
+<span class="sign-reward">悬赏<span class="fn-rmb">￥</span>2</span>
+<a href="464e916bff0c4dbba652e11685d64c5d"
+class="list-name"
+title="算法的时间复杂度是指？" target="_blank">
+算法的时间复杂度是指？
+</a>
+</div>
+<div class="tags-box">
+<a href="../questioncentermutitagids597"
+class="tag-label">复杂度</a>
+</div>
+<div class="list-legend">
+<span class="comm-num">
+评论
+<a href="464e916bff0c4dbba652e11685d64c5d">
+(2)
+</a>
+</span>
+<a></a>
+</div>
+</li>
+<li>
+<div class="list-title">
+<span class="sign-reward">悬赏<span class="fn-rmb">￥</span>2</span>
+<a href="4f369a3eb8244b9aa23985695e169a4d"
+class="list-name"
+title="对于构造方法，下列叙述不正确的是？" target="_blank">
+对于构造方法，下列叙述不正确的是？
+</a>
+</div>
+<div class="tags-box">
+<a href="../questioncentermutitagids570.htm"
+class="tag-label">Java</a>
+</div>
+<div class="list-legend">
+<span class="comm-num">
+评论
+<a href="4f369a3eb8244b9aa23985695e169a4d">
+(4)
+</a>
+</span>
+<a></a>
+</div>
+</li>
+<li>
+<div class="list-title">
+<span class="sign-reward">悬赏<span class="fn-rmb">￥</span>2</span>
+<a href="3adb42f035074f199f02bac5c22dbb58"
+class="list-name"
+title="关于序列化，下列说法错误的是？" target="_blank">
+关于序列化，下列说法错误的是？
+</a>
+</div>
+<div class="tags-box">
+<a href="../questioncentermutitagids570.htm"
+class="tag-label">Java</a>
+</div>
+<div class="list-legend">
+<span class="comm-num">
+评论
+<a href="3adb42f035074f199f02bac5c22dbb58">
+(2)
+</a>
+</span>
+<a></a>
+</div>
+</li>
+<li>
+<div class="list-title">
+<span class="sign-reward">悬赏<span class="fn-rmb">￥</span>3</span>
+<a href="70ade76884534d5a822c4edeb7132737"
+class="list-name"
+title="关于简单工厂模式说法错误的是？" target="_blank">
+关于简单工厂模式说法错误的是？
+</a>
+</div>
+<div class="tags-box">
+<a href="../questioncentermutitagids612"
+class="tag-label">软件工程</a>
+</div>
+<div class="list-legend">
+<span class="comm-num">
+评论
+<a href="70ade76884534d5a822c4edeb7132737">
+(3)
+</a>
+</span>
+<a></a>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="module-box">
+<div class="module-head clearfix">
+<h1>相关试题</h1>
+</div>
+<div class="module-body">
+<ul class="list-module">
+<li>
+<div class="list-title">
+<a href="d7c1ff50fab44443b61903eccd791f1dsourcerelative"
+class="list-name nk-txt-ellipsis"
+title="假设在x86平台上,有一个int型变量,在内存中的内部由低到高分别是:0x12,0x34,0x56,0x78当通过网络发送该数据时,正确的发送顺序是()" target="_blank">
+假设在x86平台上,有一个in...
+</a>
+</div>
+<div class="tags-box">
+<a href="../questioncentermutitagids604"
+class="tag-label">网络基础</a>
+</div>
+<div class="list-legend">
+<span class="comm-num">
+评论
+<a href="d7c1ff50fab44443b61903eccd791f1d">
+(1)
+</a>
+</span>
+来自
+<a href="../test/915316/summary">
+美团2016研发工程师笔...
+</a>
+</div>
+</li>
+<li>
+<div class="list-title">
+<a href="c3bc23bf84454420b877ca5b337fba29sourcerelative"
+class="list-name nk-txt-ellipsis"
+title="对进程和线程的描述,以下正确的是()其他子进程" target="_blank">
+对进程和线程的描述,以下正确的...
+</a>
+</div>
+<div class="tags-box">
+<a href="../questioncentermutitagids607"
+class="tag-label">操作系统</a>
+</div>
+<div class="list-legend">
+<span class="comm-num">
+评论
+<a href="c3bc23bf84454420b877ca5b337fba29">
+(0)
+</a>
+</span>
+来自
+<a href="../test/915316/summary">
+美团2016研发工程师笔...
+</a>
+</div>
+</li>
+<li>
+<div class="list-title">
+<a href="daecf1f9f5e4462fb1c51ea798ab0eabsourcerelative"
+class="list-name nk-txt-ellipsis"
+title="将7723810的各位数字打乱排序,可组成的不同的7位自然数的个数是?" target="_blank">
+将7723810的各位数字打乱...
+</a>
+</div>
+<div class="tags-box">
+<a href="../questioncentermutitagids600"
+class="tag-label">组合数学</a>
+</div>
+<div class="list-legend">
+<span class="comm-num">
+评论
+<a href="daecf1f9f5e4462fb1c51ea798ab0eab">
+(1)
+</a>
+</span>
+来自
+<a href="../test/915316/summary">
+美团2016研发工程师笔...
+</a>
+</div>
+</li>
+<li>
+<div class="list-title">
+<a href="e04a854db0f740c5bc11b64604058c8esourcerelative"
+class="list-name nk-txt-ellipsis"
+title="以下哪个属于在预编译阶段执行____,以下哪些指令属于操作符___" target="_blank">
+以下哪个属于在预编译阶段执行_...
+</a>
+</div>
+<div class="tags-box">
+<a href="../questioncentermutitagids569.htm"
+class="tag-label">C/C++</a>
+</div>
+<div class="list-legend">
+<span class="comm-num">
+评论
+<a href="e04a854db0f740c5bc11b64604058c8e">
+(1)
+</a>
+</span>
+来自
+<a href="../test/915316/summary">
+美团2016研发工程师笔...
+</a>
+</div>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="fixed-menu">
+<ul>
+<li>
+<a href="#top" class="gotop" title="回到顶部" id="gotop"></a>
+</li>
+<li>
+<a class="fixed-wb" target="_blank" href="../../www.weibo.com/nowcoder"></a>
+</li>
+<li>
+<a href="tencent_3a/groupwpa/subcmdallparam7b2267726f757055696e223a313537353934373~1" class="qq" title="QQ"></a>
+</li>
+<li>
+<a href="javascript:void(0);" class="wx"></a>
+<div class="wx-qrcode">
+<img src="../../static.nowcoder.com/images/wx-rcode.jpg" alt="二维码" />
+<p>扫描二维码，关注牛客网</p>
+</div>
+</li>
+<li>
+<a href="../discuss/30" class="feedback" title="意见反馈"></a>
+<a href="../discuss/30" class="feedback-letter">意见反馈</a>
+</li>
+<li>
+<a href="javascript:void(0);" class="qrcode"></a>
+<div class="wx-qrcode">
+<img src="../../uploadfiles.nowcoder.com/app/android/app.png" alt="二维码" />
+<p>下载牛客APP，随时随地刷题</p>
+</div>
+</li>
+</ul>
+<div class="phone-qrcode" style="display:none;">
+<a href="javascript:void(0);" class="qrcode-close">x</a>
+<img src="../../uploadfiles.nowcoder.com/app/android/app.png" alt="二维码" style="width:70px;height:70px;" />
+<p>扫一扫下载牛客APP</p>
+</div>
+</div>
+<div class="ft-wrap">
+<div class="ft-cont clearfix">
+<div class="ft-main">
+<ul class="ft-links">
+<li><a href="../html/aboutus.htm">关于我们</a></li>
+<li><a href="../html/joinus.htm">加入我们</a></li>
+<li><a href="../discuss/30" target="_blank">意见反馈</a></li>
+<li><a href="../html/services.htm">企业服务</a></li>
+<li><a href="../html/cooperation.htm">网站合作</a></li>
+<li><a href="javascript:void(0);" class="nc-req-auth nc-req-active js-test-vm">模拟终端</a></li>
+<li><a href="../html/disclaimer.htm">免责声明</a></li>
+<li><a href="../html/links.htm">友情链接</a></li>
+</ul>
+<ul class="webrights">
+<li><a href="default.htm">牛客网&copy;2015 All rights reserved</a></li>
+<li><a href="default.htm">浙ICP备14000860号-2</a></li>
+</ul>
+</div>
+<dl class="ft-web-info">
+<dt class="ft-web-name">牛客网，最大IT笔试面试题库</dt>
+<dd class="ft-info-item">QQ群：272820159</dd>
+<dd class="ft-info-item">微 信：www_nowcoder_com
+<a href="javascript:;" class="btn btn-primary btn-xs">关注
+<div class="tooltip top">
+<div class="tooltip-arrow"></div>
+<div class="tooltip-inner"><img width="80" src="../../static.nowcoder.com//images/wx-rcode.jpg" /></div>
+</div>
+</a>
+</dd>
+<dd class="ft-info-item">微 博：牛客网
+<a href="../../weibo.com/nowcoder" class="btn btn-primary btn-xs" target="_blank">关注
+</a>
+</dd>
+</dl>
+<div class="ft-app">
+<div class="ft-qrcode-box">
+<img width="128" src="../../uploadfiles.nowcoder.com/app/app_download.png" />
+</div>
+<p>扫一扫，把题目装进口袋</p>
+</div>
+</div>
+</div>
+
+</div>
+<script src="../../static.nowcoder.com/nowcoder/1.2.348/javascripts/sea.js" type="text/javascript"></script>
+<script src="../../static.nowcoder.com/nowcoder/1.2.348/javascripts/base.js"></script>
+<script type="text/javascript">
+seajs.use('nowcoder/1.2.348/javascripts/site/common/index');
+seajs.use('nowcoder/1.2.348/javascripts/site/common/nav');
+</script>
+<span id='cnzz_stat_icon_1253353781' style="display:none;"></span>
+<script type="text/javascript">
+(function (window, undefined) {
+window.problem = {
+id: 36433,
+uuid: '36a07ad112f14cc884ec6c984c4d2241',
+type: 1,
+followerCnt: 4,
+isAdmin: false,
+isMaintainer: false,
+noteId: ''
+};
+window.codeJudgeType = '0';
+window.supportLang = '';
+window.comment = {
+count: 1,
+all: [{"authorHonorLevel":7,"authorId":271108,"authorName":"中华胡杨","commentCnt":0,"content":"<div>\n  这道题我没有作对，于是就亲身实践了一下，做了一下实验，貌似有这样的规律，当两个操作数都是常量时（也不准确，因为const时，也会如前者），当移动位数超过了限界，结果将会为0.即1&lt;&lt;32\n  = 0;1&lt;&lt;33 = 0;1&lt;&lt;34=0;。。。。。 </div>\n<div>  当两个操作数中有一个为变量时，将会变成算术左移 </div>\n<div>  int a =1; </div>\n<div>  int b = 32; </div>\n<div>  a&lt;&lt;b = 1;a&lt;&lt;33 = 2;1&lt;&lt;b = 1; </div>\n<div>\n  <br>\n</div>\n<div>  const int a = 1; </div>\n<div>  a&lt;&lt;b = 1; </div>","createTime":1446979104000,"dislikes":0,"edited":false,"headImg":"../../images.nowcoder.com/images/20150831/271108_1440952088422_5f7c2c60506876716ccf0e706db13d45~1.jpg","id":75446,"isDisLiked":false,"isLiked":false,"likes":0,"thumbNail":"../../images.nowcoder.com/images/20150831/271108_1440952088422_5f7c2c60506876716ccf0e706db13d45~1","toComment":true,"toCommentId":0,"toUserId":0,"toUserName":"","updateTime":1446979104000}],
+sort: 2,
+draft: {"content":""},
+pageSize: 20,
+toCommentId: 75446
+};
+seajs.use('nowcoder/1.2.348/javascripts/site/contest/questioninpublic.js');
+})(window);
+</script>
+<textarea id="javaTpl" style="display:none;"></textarea>
+<textarea id="cTpl" style="display:none;"></textarea>
+<textarea id="pythonTpl" style="display:none;">
+
+</textarea>
+<textarea id="cSharpTpl" style="display:none;">
+
+</textarea>
+<script type="text/javascript">
+window.codeJudgeType = '0';
+</script>
+</body>
+</html>

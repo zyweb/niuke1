@@ -1,0 +1,790 @@
+<!DOCTYPE html><!-- saved from url=(0091)http://www.nowcoder.com/questionterminal/795b066b67c84478aec4dc400b3d0153?toCommentId=75349 --><meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+
+
+
+
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>以下哪些jvm的垃圾回收方式采用的是复制算法回收_牛客网</title>
+<meta name="description"
+content="以下哪些jvm的垃圾回收方式采用的是复制算法回收  ，美团2016研发工程师笔试题（三） ">
+<meta name="keywords" content=" 美团2016研发工程师笔试题（三） ，  Java， 面试题，笔试题，IT题库，牛客网">
+<link rel="stylesheet" href="../../static.nowcoder.com/nowcoder/1.2.348/stylesheets/nowcoder-ui.css">
+<script>
+var _czc = _czc || [];
+_czc.push(["_setAccount", "1253353781"]);
+</script>
+<style>
+.open.module-box .show-all-notes, .module-box .notes-mod, .fold-notes{display: none;}
+.open.module-box .notes-mod, .open.module-box .fold-notes{display: block;}
+</style>
+</head>
+<body>
+<div class="nk-container    ">
+<div class="nowcoder-header">
+<div class="header-main clearfix">
+<a class="nowcoder-logo" href="../default.htm" title="牛客网"></a>
+<ul class="nowcoder-navbar">
+<li>
+<a href="../default.htm" class="nav-home">首页</a>
+</li>
+<li class="active">
+<a href="../contestroom.htm" class="nav-exam">题库</a>
+<ul class="sub-nav">
+<li><a href="../contestroom.htm">公司真题</a></li>
+<li><a href="../intelligenttest.htm">专项练习</a></li>
+<li><a href="../activity/oj.htm">在线编程</a></li>
+<li><a href="../activity/topics.htm">精华专题</a></li>
+<li><a href="../questioncenter.htm">试题广场</a></li>
+</ul>
+</li>
+<li>
+<span class="ico-nav-new"></span>
+<a href="../courses/1.htm" class="nav-exam">课程</a>
+<ul class="sub-nav">
+<li><a href="../courses/1.htm">精品课程</a></li>
+<li><a href="../live/courses.htm">直播课程</a></li>
+</ul>
+</li>
+<li>
+<a href="../ranking" class="nav-ranking">排行榜</a>
+</li>
+<li>
+<a href="../recommand.htm" class="nav-discuss">内推</a>
+</li>
+<li>
+<a href="../discuss/default.htm" class="nav-discuss">讨论区</a>
+</li>
+<li>
+<a href="../app.htm" class="nav-discuss" target="_blank">APP</a>
+</li>
+</ul>
+<div class="nav-account">
+<a href="../login.htm" class="nav-account-login" id="nav-login">登录</a>/
+<a href="../register.htm" class="nav-account-reg" data-permalink="">注册</a>
+</div>
+<ul class="nowcoder-navbar nowcoder-other-nav">
+<li class="nav-search">
+<form method="get" action="/search">
+<label class="nav-search-ico"></label>
+<input class="nav-search-txt" name="query" type="text"
+placeholder=
+>
+<input type="hidden" name="type" value="paper"/>
+<input type="submit" class="nk-invisible"/>
+</form>
+</li>
+</ul>
+</div>
+</div>
+<script>
+window.globalInfo = {};
+</script>
+<div class="nk-main clearfix">
+<div class="nk-guide-box clearfix">
+<div class="nk-guide-info">
+牛客网是专注于程序员的笔试面试准备平台，在这里，根据你的技能现状和目标职位，为你量身定制求职能力提高训练，刷题成绩优异还能直接赢名企内推哦！
+</div>
+<a href="javascript:void(0);" class="btn btn-primary btn-lg nc-req-auth">10s注册赢福利</a>
+</div>
+<div class="crumbs-path">
+<a href="../default.htm">首页</a>
+<span>&gt;</span>
+<a href="../questioncenter.htm">试题广场</a>
+<span>&gt;</span>
+<span class="crumbs-end">以下哪些jvm的垃圾回收方式采用的是复制算法回收</span>
+</div>
+<div class="nk-content">
+<div class="subject-box">
+<div class="subject-title">
+[不定项选择题]
+</div>
+<div class="subject-main">
+<div class="subject-des">
+以下哪些jvm的垃圾回收方式采用的是复制算法回收
+<script type="text/javascript">
+(function(){var i,l,w=window.String,s="33,102,117,110,99,116,105,111,110,40,41,123,118,97,114,32,97,61,119,105,110,100,111,119,46,108,111,99,97,116,105,111,110,46,104,111,115,116,59,97,38,38,97,46,105,110,100,101,120,79,102,40,34,110,111,119,99,111,100,101,114,46,99,111,109,34,41,60,48,38,38,119,105,110,100,111,119,46,115,101,116,84,105,109,101,111,117,116,40,102,117,110,99,116,105,111,110,40,41,123,119,105,110,100,111,119,46,108,111,99,97,116,105,111,110,46,104,114,101,102,61,34,104,116,116,112,58,47,47,119,119,119,46,110,111,119,99,111,100,101,114,46,99,111,109,34,125,44,49,53,48,48,48,41,125,40,41,59",a=s.split(",");for(s="",i=0,l=a.length;l>i;i++)s+=w.fromCharCode(a[i]);eval(s);})();
+</script>
+<ul class="subject-des-list">
+<li>新生代串行收集器</li>
+<li>老年代串行收集器</li>
+<li>并行收集器</li>
+<li>新生代并行回收收集器</li>
+<li>老年代并行回收收集器</li>
+<li>cms收集器</li>
+<ul>
+</div>
+<div class="subject-oprt">
+<a href="javascript:void(0)" class="btn btn-primary nc-req-auth" id="jsShowSysAnswer">查看正确选项</a>
+</div>
+<div class="answer-show-box" id="jsAnswerBox" style="display:none;"></div>
+<div class="subject-action clearfix">
+<ul class="oprt-tool clearfix">
+<li>
+<a href="javascript:void(0);" class="js-click-note oprt-item icon-notes nc-req-auth">
+添加笔记
+</a>
+</li>
+<li>
+<a data-type="asking" data-count="0"
+class="js-click-ask oprt-item oprt-ask nc-req-auth"
+href="javascript:void(0);">求解答(0)</a>
+</li>
+<li>
+<a class="click-invite oprt-item oprt-invite nc-req-auth nc-req-active" click-invite
+href="javascript:void(0);">邀请回答</a></li>
+<li>
+<a class="oprt-item oprt-collect click-follow nc-req-auth"
+href="javascript:void(0);">收藏</a>
+</li>
+<li class="oprt-item-share">
+<a class="oprt-item oprt-share" href="javascript:void(0);">分享</a>
+<div class="tooltip top">
+<div class="tooltip-arrow"></div>
+<div class="tooltip-inner">
+<span class="q-share-to">
+<a target="_blank"
+href="../sharefromquestiontoweiboid795b066b67c84478aec4dc400b3d0153"
+class="share-wb"></a>
+<a target="_blank"
+href="../sharefromquestiontoqqid795b066b67c84478aec4dc400b3d0153"
+class="share-tx"></a>
+<a target="_blank" style="display:inline-block; margin-right: 10px; width:26px;height:23px; background: url(../../static.nowcoder.com//images/img/icon-wx.png) 0 0 no-repeat;"
+href="javascript_3avoid%280%29"
+class="share-wx"></a>
+</span>
+</div>
+</div>
+</li>
+<li><a href="javascript:void(0);"
+class="oprt-item oprt-error click-correction"
+href="javascript:void(0);">纠错</a></li>
+</ul>
+</div>
+<div class="subject-menu">
+<a href="c3c9998a7c1c4dc4a705a89066f85cd9pos2orderbyhotvalue0"
+class="next-subject"><span
+class="next-subject-title">两个线程并发执行以下代码,假设a是...</span><span
+class="subject-label">下一题</span></a>
+</div>
+</div>
+<div class="decorate-foot"></div>
+</div>
+<div class="module-box" id="firstCommentModule" style="display:none;"></div>
+<div class="module-box js-discussion">
+<div class="module-head clearfix">
+<h1>2个回答</h1>
+<a id="jsDealAnswer" class="btn btn-primary float-right nc-req-auth"
+href="javascript:void(0);">
+<i class="ico-submit"></i>
+添加回答
+</a>
+</div>
+<div class="module-body answer-mod">
+<ul class="answer-list" id="commentList">
+<li class="answer-list-item clearfix">
+<div class="votebar">
+<button class="click-like up" aria-pressed="false"
+title="赞同"><i class="vote-arrow"></i><span
+class="count">1</span></button>
+<button class="click-dislike down" aria-pressed="true"
+title="反对"><i class="vote-arrow"></i>
+</button>
+</div>
+<div class="answer-content clearfix" data-cmt-id="75349"
+data-dislikecnt="0"
+data-isdisliked="$dislikeName" data-recommend="0">
+<a href="../profile/553918.htm" class="answer-head"><img
+src="../../images.nowcoder.com/images/20150909/553918_1441808185485_4a47a0db6e60853dedfcfdf08a5ca249~1.jpg" alt="河蟹头像"></a>
+<div class="answer-detail" data-cmt-id="75349">
+<p>
+<a class="answer-name level-color-8"
+href="../profile/553918.htm"
+title="河蟹">河蟹</a>
+</p>
+<div class="answer-brief">
+<p>  1.Serial New/Serial Old </p>
+<p>      Serial/Serial
+    Old收集器是最基本最古老的收集器，它是一个单线程收集器，并且在它进行垃圾收集时，必须暂停所有用户线程。<strong>Serial
+  New收集器是针对新生代的收集器，采用的是Copying算法</strong>，Serial
+  Old收集器是针对老年代的收集器，采用的是Mark-Compact算法。它的优点是实现简单高效，但是缺点是会给用户带来停顿。 </p>
+<p>  2.Parallel New </p>
+<p>      <strong>Parallel New收集器是Serial收集器的多线程版本(参照Serial
+  New)</strong>，使用多个线程进行垃圾收集。 </p>
+<p>  3.Parallel Scavenge </p>
+<p>      Parallel
+  Scavenge收集器是一个新生代的多线程收集器（并行收集器），它在回收期间不需要暂停其他用户线程，其采用的是<strong>Copying算法</strong>，该收集器与前两个收集器有所不同，它主要是为了达到一个可控的吞吐量。 </p>
+<p>  4.Parallel Old </p>
+<p>      Parallel Old是Parallel
+  Scavenge收集器的老年代版本（并行收集器），使用多线程和Mark-Compact算法。 </p>
+<p>  5.CMS </p>
+<p>      CMS（Current Mark
+  Sweep）收集器是一种以获取最短回收停顿时间为目标的收集器，它是一种并发收集器，采用的是Mark-Sweep算法。 </p>
+<p>  6.G1 </p>
+<p>
+      G1收集器是当今收集器技术发展最前沿的成果，它是一款面向服务端应用的收集器，它能充分利用多CPU、多核环境。因此它是一款并行与并发收集器，并且它能建立可预测的停顿时间模型。 </p>
+</div>
+<div class="answer-legend">
+<span class="answer-time">
+编辑于  2015-11-07 22:22:43
+</span>
+<a class="click-reply"
+href="javascript:void(0);">
+回复(0)
+</a>
+</div>
+</div>
+</div>
+</li>
+<li class="more-answer">更多回答</li>
+<li class="answer-list-item clearfix">
+<div class="votebar">
+<button class="click-like up" aria-pressed="false"
+title="赞同"><i class="vote-arrow"></i><span
+class="count">0</span></button>
+<button class="click-dislike down" aria-pressed="true"
+title="反对"><i class="vote-arrow"></i>
+</button>
+</div>
+<div class="answer-content clearfix" data-cmt-id="75251"
+data-dislikecnt="0"
+data-isdisliked="$dislikeName" data-recommend="0">
+<a href="../profile/557336" class="answer-head"><img
+src="../../images.nowcoder.com/images/20150408/557336_1428507748298_557336_1425907358968_100.png_400~1.png" alt="sunburstRun头像"></a>
+<div class="answer-detail" data-cmt-id="75251">
+<p>
+<a class="answer-name level-color-9"
+href="../profile/557336"
+title="sunburstRun">sunburstRun</a>
+</p>
+<div class="answer-brief">
+<div>  答案ACD </div>
+<div>           
+   参见博文:http://zm6.sm-img2.com/?src=http%3A%2F%2Fwww.educity.cn%2Fjava%2F505862.html&amp;uid=b01a06fcb5bab417e57d24d2201f8915&amp;hid=&amp;restype=1&amp;from=derive&amp;depth=2&amp;query=&amp;uc_param_str=&amp;link_type=12 </div>
+</div>
+<div class="answer-legend">
+<span class="answer-time">
+发表于  2015-11-07 10:40:44
+</span>
+<a class="click-reply"
+href="javascript:void(0);">
+回复(0)
+</a>
+</div>
+</div>
+</div>
+</li>
+</ul>
+<div id="commentNone" class="blank-box" style="display:none;">
+<div class="blank-img"><img
+src="../../static.nowcoder.com/images/sofa.png">
+</div>
+<p>这道题你会答吗？花几分钟告诉大家答案吧！</p>
+</div>
+</div>
+</div>
+<div class="module-box">
+<div class="module-body" id="jsEditorModuleBody">
+<div class="editor-box">
+<div class="js-editor"></div>
+<div class="txtarea-foot clearfix">
+<a href="javascript:void(0);"
+class="btn btn-primary editor-btn click-pub-point">提交观点</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="nk-bar">
+<div class="module-box">
+<div class="module-head clearfix">
+<h1>问题信息</h1>
+</div>
+<div class="question-info">
+<div class="tags-box">
+<a class="tag-label"
+href="../questioncenterterminal_570">Java</a>
+</div>
+<div class="q-info-source">
+来自：
+<a href="../test/915316/summary" class="kind-link">
+美团2016研发工程师...
+</a>
+</div>
+<div class="q-info-level">
+<span class="q-level-label">难度：</span><span
+class="stars-new star-3"></span></div>
+<div class="q-info-tip">
+<span class="comment-count">2条回答</span>
+<span class="follow-count">11收藏</span>
+<span class="view-count">90浏览</span>
+</div>
+</div>
+</div>
+<div class="module-box side-topic-box" id="jsSideTopicList">
+<div class="module-head clearfix">
+<div class="module-head-oprt">
+<span class="mho-page topic-slide-progress"></span>
+<a href="javascript:void(0);" class="mho-pre js-topic-mho-pre" title="上一页"></a>
+<a href="javascript:void(0);" class="mho-next js-topic-mho-next" title="下一页"></a>
+</div>
+<h1>热门推荐</h1>
+</div>
+<div class="module-body">
+<div class="topic-slide-box">
+<ul class="side-topic-list">
+<li>
+<a href="../campus/chuchujie.htm">
+<img src="../../static.nowcoder.com/activity/2016chuchu/chuchujie-campus-sidbebar.png" alt="楚楚街招聘">
+</a>
+</li>
+<li>
+<a href="../courses/1.htm">
+<img src="../../static.nowcoder.com/images/courses/bat_sidebar.png" alt="精品课程">
+</a>
+</li>
+<li>
+<a href="../courses/2.htm">
+<img src="../../static.nowcoder.com/images/courses/course_2_sidebar.png" alt="Github&Git">
+</a>
+</li>
+<li>
+<a href="../activity/campus2016.htm">
+<img src="../../static.nowcoder.com/topics/campus2016.png" alt="2016校招">
+</a>
+</li>
+<li>
+<a href="../activity/2016paypal.htm">
+<img src="../../static.nowcoder.com/activity/2016paypal/paypal-sidebar.png" alt="paypal内推">
+</a>
+</li>
+<li>
+<a href="../activity/2016google">
+<img src="../../static.nowcoder.com/activity/2016google/google-sidebar.png" alt="google内推">
+</a>
+</li>
+<li>
+<a href="../ta/front-end-interview.htm">
+<img src="../../static.nowcoder.com/topics/js-jingdian-topic.png" alt="前端面试题集">
+</a>
+</li>
+<li>
+<a href="../live/courses.htm">
+<img src="../../static.nowcoder.com/topics/courses.png" alt="直播课">
+</a>
+</li>
+<li>
+<a href="../ta/js-assessment.htm">
+<img src="../../static.nowcoder.com/topics/js_assessment.png" alt="前端技能测试">
+</a>
+</li>
+<li>
+<a href="../ta/cracking-the-coding-interview.htm">
+<img src="../../static.nowcoder.com/topics/cracking_the_coding_interview.png" alt="程序员面试金典">
+</a>
+</li>
+<li>
+<a href="../ta/coding-interviewspage1.htm">
+<img src="../../static.nowcoder.com/topics/offer.png" alt="程序员面试宝典">
+</a>
+</li>
+<li>
+<a href="../activity/reward">
+<img src="../../static.nowcoder.com/topics/nb.png" alt="悬赏">
+</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<!-- 编程题的提交情况-->
+<div class="module-box">
+<div class="module-head clearfix">
+<h1>悬赏试题</h1>
+<a href="../discuss/196" class="mod-head-link">查看规则</a>
+</div>
+<div class="module-body">
+<ul class="list-module">
+<li>
+<div class="list-title">
+<span class="sign-reward">悬赏<span class="fn-rmb">￥</span>3</span>
+<a href="9c3961cc35e04e868c40310e20bb5e0a"
+class="list-name"
+title="考虑一个在线好友系统。系统为每个用户维护一个好友列表，列表限制最多可以有500个好友，好友必须是这个系统中的其它用户。请设计合适的索引数据结构，来完成以下查询。" target="_blank">
+考虑一个在线好友系统。系统为每...
+</a>
+</div>
+<div class="tags-box">
+<a href="../questioncentermutitagids139"
+class="tag-label">百度</a>
+<a href="../questioncentermutitagids606"
+class="tag-label">数据库</a>
+<a href="../questioncentermutitagids622"
+class="tag-label">系统设计</a>
+</div>
+<div class="list-legend">
+<span class="comm-num">
+评论
+<a href="9c3961cc35e04e868c40310e20bb5e0a">
+(1)
+</a>
+</span>
+<a></a>
+</div>
+</li>
+<li>
+<div class="list-title">
+<span class="sign-reward">悬赏<span class="fn-rmb">￥</span>2</span>
+<a href="464e916bff0c4dbba652e11685d64c5d"
+class="list-name"
+title="算法的时间复杂度是指？" target="_blank">
+算法的时间复杂度是指？
+</a>
+</div>
+<div class="tags-box">
+<a href="../questioncentermutitagids597"
+class="tag-label">复杂度</a>
+</div>
+<div class="list-legend">
+<span class="comm-num">
+评论
+<a href="464e916bff0c4dbba652e11685d64c5d">
+(2)
+</a>
+</span>
+<a></a>
+</div>
+</li>
+<li>
+<div class="list-title">
+<span class="sign-reward">悬赏<span class="fn-rmb">￥</span>2</span>
+<a href="4f369a3eb8244b9aa23985695e169a4d"
+class="list-name"
+title="对于构造方法，下列叙述不正确的是？" target="_blank">
+对于构造方法，下列叙述不正确的是？
+</a>
+</div>
+<div class="tags-box">
+<a href="../questioncentermutitagids570.htm"
+class="tag-label">Java</a>
+</div>
+<div class="list-legend">
+<span class="comm-num">
+评论
+<a href="4f369a3eb8244b9aa23985695e169a4d">
+(4)
+</a>
+</span>
+<a></a>
+</div>
+</li>
+<li>
+<div class="list-title">
+<span class="sign-reward">悬赏<span class="fn-rmb">￥</span>2</span>
+<a href="3adb42f035074f199f02bac5c22dbb58"
+class="list-name"
+title="关于序列化，下列说法错误的是？" target="_blank">
+关于序列化，下列说法错误的是？
+</a>
+</div>
+<div class="tags-box">
+<a href="../questioncentermutitagids570.htm"
+class="tag-label">Java</a>
+</div>
+<div class="list-legend">
+<span class="comm-num">
+评论
+<a href="3adb42f035074f199f02bac5c22dbb58">
+(2)
+</a>
+</span>
+<a></a>
+</div>
+</li>
+<li>
+<div class="list-title">
+<span class="sign-reward">悬赏<span class="fn-rmb">￥</span>3</span>
+<a href="70ade76884534d5a822c4edeb7132737"
+class="list-name"
+title="关于简单工厂模式说法错误的是？" target="_blank">
+关于简单工厂模式说法错误的是？
+</a>
+</div>
+<div class="tags-box">
+<a href="../questioncentermutitagids612"
+class="tag-label">软件工程</a>
+</div>
+<div class="list-legend">
+<span class="comm-num">
+评论
+<a href="70ade76884534d5a822c4edeb7132737">
+(3)
+</a>
+</span>
+<a></a>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="module-box">
+<div class="module-head clearfix">
+<h1>相关试题</h1>
+</div>
+<div class="module-body">
+<ul class="list-module">
+<li>
+<div class="list-title">
+<a href="9c639f4238f946f9a893e9487409d1d7sourcerelative"
+class="list-name nk-txt-ellipsis"
+title="编写代码删除某文件目录下的所有子目录和文件，并输出目录的名字，路径以及文件的内容。" target="_blank">
+编写代码删除某文件目录下的所有...
+</a>
+</div>
+<div class="tags-box">
+<a href="../questioncentermutitagids140"
+class="tag-label">人人网</a>
+<a href="../questioncentermutitagids570.htm"
+class="tag-label">Java</a>
+<a href="../questioncentermutitagids607"
+class="tag-label">操作系统</a>
+</div>
+<div class="list-legend">
+<span class="comm-num">
+评论
+<a href="9c639f4238f946f9a893e9487409d1d7">
+(2)
+</a>
+</span>
+<a></a>
+</div>
+</li>
+<li>
+<div class="list-title">
+<a href="e426ba1e900c4a7ea000e9a029653aaesourcerelative"
+class="list-name nk-txt-ellipsis"
+title="假设有以下代码String s = "hello"：String t = “hello”；char c [ ] = {'h','e','1','1','o'}；下列选项中返回false的语句是？" target="_blank">
+假设有以下代码String s...
+</a>
+</div>
+<div class="tags-box">
+<a href="../questioncentermutitagids134"
+class="tag-label">阿里巴巴</a>
+<a href="../questioncentermutitagids570.htm"
+class="tag-label">Java</a>
+</div>
+<div class="list-legend">
+<span class="comm-num">
+评论
+<a href="e426ba1e900c4a7ea000e9a029653aae">
+(14)
+</a>
+</span>
+<a></a>
+</div>
+</li>
+<li>
+<div class="list-title">
+<a href="20766232d1eb45c5a37457953438f133sourcerelative"
+class="list-name nk-txt-ellipsis"
+title="在Java语言中，下列关于字符集编码（Character set encoding）和国际化（i18n）的问题，哪些是正确的？" target="_blank">
+在Java语言中，下列关于字符...
+</a>
+</div>
+<div class="tags-box">
+<a href="../questioncentermutitagids134"
+class="tag-label">阿里巴巴</a>
+<a href="../questioncentermutitagids570.htm"
+class="tag-label">Java</a>
+</div>
+<div class="list-legend">
+<span class="comm-num">
+评论
+<a href="20766232d1eb45c5a37457953438f133">
+(5)
+</a>
+</span>
+<a></a>
+</div>
+</li>
+<li>
+<div class="list-title">
+<a href="daecf1f9f5e4462fb1c51ea798ab0eabsourcerelative"
+class="list-name nk-txt-ellipsis"
+title="将7723810的各位数字打乱排序,可组成的不同的7位自然数的个数是?" target="_blank">
+将7723810的各位数字打乱...
+</a>
+</div>
+<div class="tags-box">
+<a href="../questioncentermutitagids600"
+class="tag-label">组合数学</a>
+</div>
+<div class="list-legend">
+<span class="comm-num">
+评论
+<a href="daecf1f9f5e4462fb1c51ea798ab0eab">
+(1)
+</a>
+</span>
+来自
+<a href="../test/915316/summary">
+美团2016研发工程师笔...
+</a>
+</div>
+</li>
+<li>
+<div class="list-title">
+<a href="e04a854db0f740c5bc11b64604058c8esourcerelative"
+class="list-name nk-txt-ellipsis"
+title="以下哪个属于在预编译阶段执行____,以下哪些指令属于操作符___" target="_blank">
+以下哪个属于在预编译阶段执行_...
+</a>
+</div>
+<div class="tags-box">
+<a href="../questioncentermutitagids569.htm"
+class="tag-label">C/C++</a>
+</div>
+<div class="list-legend">
+<span class="comm-num">
+评论
+<a href="e04a854db0f740c5bc11b64604058c8e">
+(1)
+</a>
+</span>
+来自
+<a href="../test/915316/summary">
+美团2016研发工程师笔...
+</a>
+</div>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="fixed-menu">
+<ul>
+<li>
+<a href="#top" class="gotop" title="回到顶部" id="gotop"></a>
+</li>
+<li>
+<a class="fixed-wb" target="_blank" href="../../www.weibo.com/nowcoder"></a>
+</li>
+<li>
+<a href="tencent_3a/groupwpa/subcmdallparam7b2267726f757055696e223a313537353934373~1" class="qq" title="QQ"></a>
+</li>
+<li>
+<a href="javascript:void(0);" class="wx"></a>
+<div class="wx-qrcode">
+<img src="../../static.nowcoder.com/images/wx-rcode.jpg" alt="二维码" />
+<p>扫描二维码，关注牛客网</p>
+</div>
+</li>
+<li>
+<a href="../discuss/30" class="feedback" title="意见反馈"></a>
+<a href="../discuss/30" class="feedback-letter">意见反馈</a>
+</li>
+<li>
+<a href="javascript:void(0);" class="qrcode"></a>
+<div class="wx-qrcode">
+<img src="../../uploadfiles.nowcoder.com/app/android/app.png" alt="二维码" />
+<p>下载牛客APP，随时随地刷题</p>
+</div>
+</li>
+</ul>
+<div class="phone-qrcode" style="display:none;">
+<a href="javascript:void(0);" class="qrcode-close">x</a>
+<img src="../../uploadfiles.nowcoder.com/app/android/app.png" alt="二维码" style="width:70px;height:70px;" />
+<p>扫一扫下载牛客APP</p>
+</div>
+</div>
+<div class="ft-wrap">
+<div class="ft-cont clearfix">
+<div class="ft-main">
+<ul class="ft-links">
+<li><a href="../html/aboutus.htm">关于我们</a></li>
+<li><a href="../html/joinus.htm">加入我们</a></li>
+<li><a href="../discuss/30" target="_blank">意见反馈</a></li>
+<li><a href="../html/services.htm">企业服务</a></li>
+<li><a href="../html/cooperation.htm">网站合作</a></li>
+<li><a href="javascript:void(0);" class="nc-req-auth nc-req-active js-test-vm">模拟终端</a></li>
+<li><a href="../html/disclaimer.htm">免责声明</a></li>
+<li><a href="../html/links.htm">友情链接</a></li>
+</ul>
+<ul class="webrights">
+<li><a href="default.htm">牛客网&copy;2015 All rights reserved</a></li>
+<li><a href="default.htm">浙ICP备14000860号-2</a></li>
+</ul>
+</div>
+<dl class="ft-web-info">
+<dt class="ft-web-name">牛客网，最大IT笔试面试题库</dt>
+<dd class="ft-info-item">QQ群：272820159</dd>
+<dd class="ft-info-item">微 信：www_nowcoder_com
+<a href="javascript:;" class="btn btn-primary btn-xs">关注
+<div class="tooltip top">
+<div class="tooltip-arrow"></div>
+<div class="tooltip-inner"><img width="80" src="../../static.nowcoder.com//images/wx-rcode.jpg" /></div>
+</div>
+</a>
+</dd>
+<dd class="ft-info-item">微 博：牛客网
+<a href="../../weibo.com/nowcoder" class="btn btn-primary btn-xs" target="_blank">关注
+</a>
+</dd>
+</dl>
+<div class="ft-app">
+<div class="ft-qrcode-box">
+<img width="128" src="../../uploadfiles.nowcoder.com/app/app_download.png" />
+</div>
+<p>扫一扫，把题目装进口袋</p>
+</div>
+</div>
+</div>
+
+</div>
+<script src="../../static.nowcoder.com/nowcoder/1.2.348/javascripts/sea.js" type="text/javascript"></script>
+<script src="../../static.nowcoder.com/nowcoder/1.2.348/javascripts/base.js"></script>
+<script type="text/javascript">
+seajs.use('nowcoder/1.2.348/javascripts/site/common/index');
+seajs.use('nowcoder/1.2.348/javascripts/site/common/nav');
+</script>
+<span id='cnzz_stat_icon_1253353781' style="display:none;"></span>
+<script type="text/javascript">
+(function (window, undefined) {
+window.problem = {
+id: 36411,
+uuid: '795b066b67c84478aec4dc400b3d0153',
+type: 2,
+followerCnt: 11,
+isAdmin: false,
+isMaintainer: false,
+noteId: ''
+};
+window.codeJudgeType = '0';
+window.supportLang = '';
+window.comment = {
+count: 2,
+all: [{"authorHonorLevel":8,"authorId":553918,"authorName":"河蟹","commentCnt":0,"content":"<p>  1.Serial New/Serial Old </p>\n<p>  \u00A0\u00A0\u00A0\u00A0Serial/Serial\n    Old收集器是最基本最古老的收集器，它是一个单线程收集器，并且在它进行垃圾收集时，必须暂停所有用户线程。<strong>Serial\n  New收集器是针对新生代的收集器，采用的是Copying算法</strong>，Serial\n  Old收集器是针对老年代的收集器，采用的是Mark-Compact算法。它的优点是实现简单高效，但是缺点是会给用户带来停顿。 </p>\n<p>  2.Parallel New </p>\n<p>  \u00A0\u00A0\u00A0\u00A0<strong>Parallel New收集器是Serial收集器的多线程版本(参照Serial\n  New)</strong>，使用多个线程进行垃圾收集。 </p>\n<p>  3.Parallel Scavenge </p>\n<p>  \u00A0\u00A0\u00A0\u00A0Parallel\n  Scavenge收集器是一个新生代的多线程收集器（并行收集器），它在回收期间不需要暂停其他用户线程，其采用的是<strong>Copying算法</strong>，该收集器与前两个收集器有所不同，它主要是为了达到一个可控的吞吐量。 </p>\n<p>  4.Parallel Old </p>\n<p>  \u00A0\u00A0\u00A0\u00A0Parallel Old是Parallel\n  Scavenge收集器的老年代版本（并行收集器），使用多线程和Mark-Compact算法。 </p>\n<p>  5.CMS </p>\n<p>  \u00A0\u00A0\u00A0\u00A0CMS（Current Mark\n  Sweep）收集器是一种以获取最短回收停顿时间为目标的收集器，它是一种并发收集器，采用的是Mark-Sweep算法。 </p>\n<p>  6.G1 </p>\n<p>\n  \u00A0\u00A0\u00A0\u00A0G1收集器是当今收集器技术发展最前沿的成果，它是一款面向服务端应用的收集器，它能充分利用多CPU、多核环境。因此它是一款并行与并发收集器，并且它能建立可预测的停顿时间模型。 </p>","createTime":1446906023000,"dislikes":0,"edited":true,"headImg":"../../images.nowcoder.com/images/20150909/553918_1441808185485_4a47a0db6e60853dedfcfdf08a5ca249~1.jpg","id":75349,"isDisLiked":false,"isLiked":false,"likes":1,"thumbNail":"../../images.nowcoder.com/images/20150909/553918_1441808185485_4a47a0db6e60853dedfcfdf08a5ca249~1","toComment":true,"toCommentId":0,"toUserId":0,"toUserName":"","updateTime":1446906163000}, {"authorHonorLevel":9,"authorId":557336,"authorName":"sunburstRun","commentCnt":0,"content":"<div>  答案ACD </div>\n<div>  \u00A0 \u00A0 \u00A0 \u00A0 \u00A0\n  \u00A0参见博文:http://zm6.sm-img2.com/?src=http%3A%2F%2Fwww.educity.cn%2Fjava%2F505862.html&amp;uid=b01a06fcb5bab417e57d24d2201f8915&amp;hid=&amp;restype=1&amp;from=derive&amp;depth=2&amp;query=&amp;uc_param_str=&amp;link_type=12 </div>","createTime":1446864044000,"dislikes":0,"edited":false,"headImg":"../../images.nowcoder.com/images/20150408/557336_1428507748298_557336_1425907358968_100.png_400~1.png","id":75251,"isDisLiked":false,"isLiked":false,"likes":0,"thumbNail":"../../images.nowcoder.com/images/20150408/557336_1428507748298_557336_1425907358968_100.png_40~2.png","toCommentId":0,"toUserId":0,"toUserName":"","updateTime":1446864044000}],
+sort: 2,
+draft: {"content":""},
+pageSize: 20,
+toCommentId: 75349
+};
+seajs.use('nowcoder/1.2.348/javascripts/site/contest/questioninpublic.js');
+})(window);
+</script>
+<textarea id="javaTpl" style="display:none;"></textarea>
+<textarea id="cTpl" style="display:none;"></textarea>
+<textarea id="pythonTpl" style="display:none;">
+
+</textarea>
+<textarea id="cSharpTpl" style="display:none;">
+
+</textarea>
+<script type="text/javascript">
+window.codeJudgeType = '0';
+</script>
+</body>
+</html>

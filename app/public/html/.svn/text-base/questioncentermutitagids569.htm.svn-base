@@ -1,0 +1,1197 @@
+<!DOCTYPE html><!-- saved from url=(0053)http://www.nowcoder.com/questionCenter?mutiTagIds=569 --><meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+
+<!-- html svn version:1995 -->
+
+
+
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>试题广场_百度阿里腾讯谷歌小米笔试题_牛客网</title>
+<meta name="description"
+content="计算机笔试面试题、JAVA笔试面试题、C++笔试面试题、前端笔试面试题、百度笔试面试题、阿里巴巴笔试面试题、腾讯笔试面试题、谷歌笔试面试题，小米笔试面试题，微软笔试面试题等30家IT一流公司历年笔试面试题及答案在线讨论">
+<meta name="keywords" content="百度面试题，腾讯面试题，阿里面试题，JAVA笔试面试题、C++笔试面试题、前端笔试面试题、IT笔试面试题库，牛客网">
+<link rel="stylesheet" href="../static.nowcoder.com/nowcoder/1.2.348/stylesheets/nowcoder-ui.css">
+<script>
+var _czc = _czc || [];
+_czc.push(["_setAccount", "1253353781"]);
+</script>
+</head>
+<body>
+<div class="nk-container    ">
+<div class="nowcoder-header">
+<div class="header-main clearfix">
+<a class="nowcoder-logo" href="default.htm" title="牛客网"></a>
+<ul class="nowcoder-navbar">
+<li>
+<a href="default.htm" class="nav-home">首页</a>
+</li>
+<li class="active">
+<a href="contestroom.htm" class="nav-exam">题库</a>
+<ul class="sub-nav">
+<li><a href="contestroom.htm">公司真题</a></li>
+<li><a href="intelligenttest.htm">专项练习</a></li>
+<li><a href="activity/oj.htm">在线编程</a></li>
+<li><a href="activity/topics.htm">精华专题</a></li>
+<li><a href="questioncenter.htm">试题广场</a></li>
+</ul>
+</li>
+<li>
+<span class="ico-nav-new"></span>
+<a href="courses/1.htm" class="nav-exam">课程</a>
+<ul class="sub-nav">
+<li><a href="courses/1.htm">精品课程</a></li>
+<li><a href="live/courses.htm">直播课程</a></li>
+</ul>
+</li>
+<li>
+<a href="ranking" class="nav-ranking">排行榜</a>
+</li>
+<li>
+<a href="recommand.htm" class="nav-discuss">内推</a>
+</li>
+<li>
+<a href="discuss/default.htm" class="nav-discuss">讨论区</a>
+</li>
+<li>
+<a href="app.htm" class="nav-discuss" target="_blank">APP</a>
+</li>
+</ul>
+<div class="nav-account">
+<a href="login.htm" class="nav-account-login" id="nav-login">登录</a>/
+<a href="register.htm" class="nav-account-reg" data-permalink="">注册</a>
+</div>
+<ul class="nowcoder-navbar nowcoder-other-nav">
+<li class="nav-search">
+<form method="get" action="/search">
+<label class="nav-search-ico"></label>
+<input class="nav-search-txt" name="query" type="text"
+placeholder=
+>
+<input type="hidden" name="type" value="paper"/>
+<input type="submit" class="nk-invisible"/>
+</form>
+</li>
+</ul>
+</div>
+</div>
+<script>
+window.globalInfo = {};
+</script>
+<div class="test-tab-wrap">
+<div class="test-tab-cont clearfix">
+<ul class="test-tab clearfix">
+<li><a href="contestroom.htm">公司真题模考</a></li>
+<li><a href="intelligenttest.htm">智能专项练习</a></li>
+<li><a href="activity/oj.htm">在线编程</a></li>
+<li><a href="activity/topics.htm">精华专题</a></li>
+<li class="selected"><a href="questioncenterorderbyhotvalue2">试题广场</a></li>
+</ul>
+</div>
+</div>
+<div class="nk-main test-center-page clearfix">
+<div class="mini-banner">
+<a href="courses/1.htm"><img src="../static.nowcoder.com/images/courses/jp-course.png"></a>
+</div>
+<div class="test-center-bar">
+<ul class="test-center-menu">
+<li>
+<div class="tcm-mod">
+<div class="tcm-arrow"></div>
+<h4 class="tcm-hd">职业方向</h4>
+<div class="tcm-bd">
+<a class="tcm-tag" data-id="639" href="javascript:void(0);">Java工程师</a>
+<a class="tcm-tag" data-id="640" href="javascript:void(0);">C++工程师</a>
+</div>
+</div>
+<div class="mod-sub-wrap">
+<div class="tcm-sub-mod">
+<h4 class="tcm-hd">职业方向</h4>
+<div class="tcm-bd">
+<a class="tcm-tag" data-id="639" href="javascript:void(0);">Java工程师</a>
+<a class="tcm-tag" data-id="640" href="javascript:void(0);">C++工程师</a>
+<a class="tcm-tag" data-id="642" href="javascript:void(0);">安卓工程师</a>
+<a class="tcm-tag" data-id="641" href="javascript:void(0);">iOS工程师</a>
+<a class="tcm-tag" data-id="643" href="javascript:void(0);">运维工程师</a>
+<a class="tcm-tag" data-id="644" href="javascript:void(0);">前端工程师</a>
+<a class="tcm-tag" data-id="645" href="javascript:void(0);">算法工程师</a>
+<a class="tcm-tag" data-id="649" href="javascript:void(0);">PHP工程师</a>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div class="tcm-arrow"></div>
+<div class="tcm-mod">
+<h4 class="tcm-hd">知识点</h4>
+<div class="tcm-bd">
+<a href="javascript:void(0);" class="tcm-tag" data-id="580">链表</a>
+<a href="javascript:void(0);" class="tcm-tag" data-id="583">树</a>
+<a href="javascript:void(0);" class="tcm-tag"
+data-id="569">C/C++</a>
+<a href="javascript:void(0);" class="tcm-tag"
+data-id="570">Java</a>
+</div>
+</div>
+<div class="mod-sub-wrap">
+<div class="tcm-sub-mod">
+<h4 class="tcm-hd">算法</h4>
+<div class="tcm-bd">
+<a href="javascript:void(0);" class="tcm-tag" data-id="589">查找</a>
+<a href="javascript:void(0);" class="tcm-tag" data-id="590">排序</a>
+<a href="javascript:void(0);" class="tcm-tag" data-id="591">递归</a>
+<a href="javascript:void(0);" class="tcm-tag" data-id="592">贪心</a>
+<a href="javascript:void(0);" class="tcm-tag"
+data-id="593">动态规划</a>
+<a href="javascript:void(0);" class="tcm-tag" data-id="594">分治</a>
+<a href="javascript:void(0);" class="tcm-tag" data-id="595">模拟</a>
+<a href="javascript:void(0);" class="tcm-tag" data-id="596">穷举</a>
+<a href="javascript:void(0);" class="tcm-tag"
+data-id="597">复杂度</a>
+<a href="javascript:void(0);" class="tcm-tag"
+data-id="598">高级算法</a>
+</div>
+</div>
+<div class="tcm-sub-mod">
+<h4 class="tcm-hd">编程语言</h4>
+<div class="tcm-bd">
+<a href="javascript:void(0);" class="tcm-tag"
+data-id="569">C/C++</a>
+<a href="javascript:void(0);" class="tcm-tag"
+data-id="570">Java</a>
+<a href="javascript:void(0);" class="tcm-tag" data-id="571">Javascript</a>
+<a href="javascript:void(0);" class="tcm-tag" data-id="572">C#</a>
+<a href="javascript:void(0);" class="tcm-tag"
+data-id="573">Python</a>
+<a href="javascript:void(0);" class="tcm-tag" data-id="574">HTML/CSS</a>
+<a href="javascript:void(0);" class="tcm-tag"
+data-id="575">PHP</a>
+<a href="javascript:void(0);" class="tcm-tag"
+data-id="576">小众语言</a>
+</div>
+</div>
+<div class="tcm-sub-mod">
+<h4 class="tcm-hd">数据结构</h4>
+<div class="tcm-bd">
+<a href="javascript:void(0);" class="tcm-tag" data-id="578">数组</a>
+<a href="javascript:void(0);" class="tcm-tag"
+data-id="579">字符串</a>
+<a href="javascript:void(0);" class="tcm-tag" data-id="580">链表</a>
+<a href="javascript:void(0);" class="tcm-tag" data-id="581">栈</a>
+<a href="javascript:void(0);" class="tcm-tag" data-id="582">队列</a>
+<a href="javascript:void(0);" class="tcm-tag" data-id="583">树</a>
+<a href="javascript:void(0);" class="tcm-tag" data-id="584">图</a>
+<a href="javascript:void(0);" class="tcm-tag" data-id="585">哈希</a>
+<a href="javascript:void(0);" class="tcm-tag" data-id="586">堆</a>
+<a href="javascript:void(0);" class="tcm-tag"
+data-id="587">高级结构</a>
+</div>
+</div>
+<div class="tcm-sub-mod">
+<h4 class="tcm-hd">计算机基础</h4>
+<div class="tcm-bd">
+<a href="javascript:void(0);" class="tcm-tag"
+data-id="604">网络基础</a>
+<a href="javascript:void(0);" class="tcm-tag"
+data-id="605">正则表达式</a>
+<a href="javascript:void(0);" class="tcm-tag"
+data-id="606">数据库</a>
+<a href="javascript:void(0);" class="tcm-tag"
+data-id="607">操作系统</a>
+<a href="javascript:void(0);" class="tcm-tag"
+data-id="608">加密和安全</a>
+<a href="javascript:void(0);" class="tcm-tag"
+data-id="609">编程基础</a>
+<a href="javascript:void(0);" class="tcm-tag" data-id="610">编译和体系结构</a>
+</div>
+</div>
+<div class="tcm-sub-mod">
+<h4 class="tcm-hd">数学和逻辑</h4>
+<div class="tcm-bd">
+<a href="javascript:void(0);" class="tcm-tag"
+data-id="600">组合数学</a>
+<a href="javascript:void(0);" class="tcm-tag"
+data-id="601">概率统计</a>
+<a href="javascript:void(0);" class="tcm-tag"
+data-id="602">智力题</a>
+</div>
+</div>
+<div class="tcm-sub-mod">
+<h4 class="tcm-hd">软件开发</h4>
+<div class="tcm-bd">
+<a href="javascript:void(0);" class="tcm-tag"
+data-id="612">软件工程</a>
+<a href="javascript:void(0);" class="tcm-tag"
+data-id="613">软件测试</a>
+<a href="javascript:void(0);" class="tcm-tag"
+data-id="614">面向对象</a>
+<a href="javascript:void(0);" class="tcm-tag"
+data-id="615">海量数据</a>
+<a href="javascript:void(0);" class="tcm-tag"
+data-id="616">iOS</a>
+<a href="javascript:void(0);" class="tcm-tag" data-id="617">Android</a>
+<a href="javascript:void(0);" class="tcm-tag"
+data-id="618">Linux</a>
+<a href="javascript:void(0);" class="tcm-tag"
+data-id="619">.NET</a>
+<a href="javascript:void(0);" class="tcm-tag" data-id="620">Windows</a>
+<a href="javascript:void(0);" class="tcm-tag"
+data-id="621">分布式</a>
+<a href="javascript:void(0);" class="tcm-tag"
+data-id="622">系统设计</a>
+<a href="javascript:void(0);" class="tcm-tag"
+data-id="623">开发工具</a>
+<a href="javascript:void(0);" class="tcm-tag"
+data-id="624">Jquery</a>
+<a href="javascript:void(0);" class="tcm-tag"
+data-id="625">Struts</a>
+<a href="javascript:void(0);" class="tcm-tag" data-id="626">Hibernate</a>
+<a href="javascript:void(0);" class="tcm-tag"
+data-id="627">Redis</a>
+<a href="javascript:void(0);" class="tcm-tag" data-id="628">WebServer</a>
+<a href="javascript:void(0);" class="tcm-tag" data-id="629">Hadoop/Spark</a>
+<a href="javascript:void(0);" class="tcm-tag"
+data-id="630">数理统计</a>
+<a href="javascript:void(0);" class="tcm-tag"
+data-id="631">机器学习</a>
+<a href="javascript:void(0);" class="tcm-tag" data-id="632">推荐</a>
+<a href="javascript:void(0);" class="tcm-tag"
+data-id="633">自然语言处理</a>
+<a href="javascript:void(0);" class="tcm-tag"
+data-id="634">搜索引擎</a>
+<a href="javascript:void(0);" class="tcm-tag" data-id="635">广告</a>
+<a href="javascript:void(0);" class="tcm-tag" data-id="636">并发</a>
+<a href="javascript:void(0);" class="tcm-tag"
+data-id="637">Spring</a>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div class="tcm-mod">
+<div class="tcm-arrow"></div>
+<h4 class="tcm-hd">公司</h4>
+<div class="tcm-bd">
+<a href="javascript:void(0);" class="tcm-tag"
+data-id="134">阿里巴巴</a>
+<a href="javascript:void(0);" class="tcm-tag" data-id="138">腾讯</a>
+<a href="javascript:void(0);" class="tcm-tag" data-id="139">百度</a>
+</div>
+</div>
+<div class="mod-sub-wrap">
+<div class="tcm-sub-mod">
+<h4 class="tcm-hd">公司</h4>
+<div class="tcm-bd">
+<a href="javascript:void(0);" class="tcm-tag"
+data-id="134">阿里巴巴</a>
+<a href="javascript:void(0);" class="tcm-tag" data-id="163">金山</a>
+<a href="javascript:void(0);" class="tcm-tag" data-id="171">迅雷</a>
+<a href="javascript:void(0);" class="tcm-tag"
+data-id="178">赶集网</a>
+<a href="javascript:void(0);" class="tcm-tag"
+data-id="170">艺龙网</a>
+<a href="javascript:void(0);" class="tcm-tag" data-id="138">腾讯</a>
+<a href="javascript:void(0);" class="tcm-tag" data-id="179">美团</a>
+<a href="javascript:void(0);" class="tcm-tag" data-id="149">网易</a>
+<a href="javascript:void(0);" class="tcm-tag" data-id="155">盛大</a>
+<a href="javascript:void(0);" class="tcm-tag" data-id="139">百度</a>
+<a href="javascript:void(0);" class="tcm-tag"
+data-id="166">爱奇艺</a>
+<a href="javascript:void(0);" class="tcm-tag" data-id="135">淘宝</a>
+<a href="javascript:void(0);" class="tcm-tag"
+data-id="167">欢聚时代</a>
+<a href="javascript:void(0);" class="tcm-tag" data-id="153">携程</a>
+<a href="javascript:void(0);" class="tcm-tag" data-id="148">搜狐</a>
+<a href="javascript:void(0);" class="tcm-tag" data-id="146">微软</a>
+<a href="javascript:void(0);" class="tcm-tag"
+data-id="152">当当网</a>
+<a href="javascript:void(0);" class="tcm-tag"
+data-id="164">巨人网络</a>
+<a href="javascript:void(0);" class="tcm-tag" data-id="147">小米</a>
+<a href="javascript:void(0);" class="tcm-tag"
+data-id="160">完美世界</a>
+<a href="javascript:void(0);" class="tcm-tag" data-id="157">奇虎</a>
+<a href="javascript:void(0);" class="tcm-tag"
+data-id="184">大众点评</a>
+<a href="javascript:void(0);" class="tcm-tag"
+data-id="150">唯品会</a>
+<a href="javascript:void(0);" class="tcm-tag"
+data-id="141">去哪儿</a>
+<a href="javascript:void(0);" class="tcm-tag" data-id="161">优酷</a>
+<a href="javascript:void(0);" class="tcm-tag"
+data-id="140">人人网</a>
+<a href="javascript:void(0);" class="tcm-tag" data-id="151">京东</a>
+<a href="javascript:void(0);" class="tcm-tag"
+data-id="145">亚马逊</a>
+<a href="javascript:void(0);" class="tcm-tag"
+data-id="162">乐视网</a>
+<a href="javascript:void(0);" class="tcm-tag"
+data-id="144">google</a>
+<a href="javascript:void(0);" class="tcm-tag" data-id="239">华为</a>
+<a href="javascript:void(0);" class="tcm-tag" data-id="240">雅虎</a>
+<a href="javascript:void(0);" class="tcm-tag" data-id="248">TopCoder</a>
+<a href="javascript:void(0);" class="tcm-tag" data-id="241">IBM</a>
+<a href="javascript:void(0);" class="tcm-tag" data-id="242">创新工场</a>
+<a href="javascript:void(0);" class="tcm-tag" data-id="235">leetcode</a>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div class="tcm-mod">
+<h4 class="tcm-hd">ACM</h4>
+<div class="tcm-bd">
+<a class="tcm-tag" href='javascript:void(0);'
+data-id="656">ZOJ</a>
+<a class="tcm-tag" href='javascript:void(0);'
+data-id="657">HDOJ</a>
+<a class="tcm-tag" href='javascript:void(0);'
+data-id="658">POJ</a>
+</div>
+</div>
+</li>
+<li>
+<div class="tcm-mod">
+<h4 class="tcm-hd">题型</h4>
+<div class="tcm-bd">
+<a class="tcm-tag" href='javascript:void(0);'
+data-id="type-100000">单选</a>
+<a class="tcm-tag" href='javascript:void(0);'
+data-id="type-010000">不定项</a>
+<a class="tcm-tag" href='javascript:void(0);'
+data-id="type-001000">填空</a>
+<a class="tcm-tag" href='javascript:void(0);'
+data-id="type-000010">问答</a>
+<a class="tcm-tag" href='javascript:void(0);'
+data-id="type-000100">编程</a>
+<a class="tcm-tag" href='javascript:void(0);'
+data-id="type-000001">数据挖掘</a>
+</div>
+</div>
+</li>
+<li>
+<div class="tcm-mod">
+<h4 class="tcm-hd">难度</h4>
+<div class="tcm-bd">
+<a class="tcm-tag" href='javascript:void(0);'
+data-id="difficulty-10000">一星</a>
+<a class="tcm-tag" href='javascript:void(0);'
+data-id="difficulty-01000">二星</a>
+<a class="tcm-tag" href='javascript:void(0);'
+data-id="difficulty-00100">三星</a>
+<a class="tcm-tag" href='javascript:void(0);'
+data-id="difficulty-00010">四星</a>
+<a class="tcm-tag" href='javascript:void(0);'
+data-id="difficulty-00001">五星</a>
+</div>
+</div>
+</li>
+</ul>
+<div class="module-box">
+<a href="activity/reward" class="btn btn-primary btn-block">每日难题悬赏赚牛币</a>
+</div>
+</div>
+<!--主体内容-->
+<div class="nk-content">
+<div class="tag-choose-wrap">
+<a href="javascript:void(0);" class="refresh-tag">重选</a>
+<div class="tag-choose-label">已选择：</div>
+<div class="tags-box">
+<a href="javascript:void(0);" class="tag-label">
+C/C++
+<span data-id="569" class="del-tag">x</span>
+</a>
+</div>
+</div>
+<div class="module-box">
+<div class="menu-box">
+<ul class="menu clearfix">
+<li>
+<a href='questioncenterorderbyhotvalue2done0mutitagids569onlyr~1'>推荐</a>
+<li>
+<a href='questioncenterorderbyhotvalue1done0mutitagids569onlyr~1'>最热</a>
+</li>
+<li class="selected"><a href="javascript:void(0);">最新</a></li>
+</ul>
+<label class="checkbox" id="jsAnswerCheckbox">
+<span class="icons"></span>
+<input type="checkbox">
+只看有答案的题
+</label>
+</div>
+<div class="module-body">
+<ul class="terminal-feed common-list">
+<li>
+<div class="discuss-brief">
+<div class="end-quot">
+<a href='questionterminal/c3c9998a7c1c4dc4a705a89066f85cd9orderbyhotvalue0done0~1'
+target="_blank">
+两个线程并发执行以下代码,假设a是全局变量,那么以下输出___哪个是可能的?
+</a>
+</div>
+</div>
+<div class="tags-box">
+<a href="questioncentermutitagids569.htm"
+target="_blank"
+class="tag-label">C/C++</a>
+</div>
+<div class="feed-foot">
+<div class="feed-origin">
+<p class="feed-tip">
+来自<a href="test/915316/summary"
+target="_blank">美团2016研发工程师笔试题（三）</a>
+</p>
+</div>
+<div class="feed-legend">
+<span>回答<span
+class="feed-legend-num">2</span></span>
+<span class="feed-legend-pipe">|</span>
+<span>收藏<span
+class="feed-legend-num">7</span></span>
+<span class="feed-legend-pipe">|</span>
+<span>浏览量<span
+class="feed-legend-num">144</span></span>
+</div>
+</div>
+</li>
+<li>
+<div class="discuss-brief">
+<div class="end-quot">
+<a href='questionterminal/be5269b8c2d340c3add69510d0089747orderbyhotvalue0done0~1'
+target="_blank">
+最后一行char data[0];的作用是?
+</a>
+</div>
+</div>
+<div class="tags-box">
+<a href="questioncentermutitagids569.htm"
+target="_blank"
+class="tag-label">C/C++</a>
+</div>
+<div class="feed-foot">
+<div class="feed-origin">
+<p class="feed-tip">
+来自<a href="test/915316/summary"
+target="_blank">美团2016研发工程师笔试题（三）</a>
+</p>
+</div>
+<div class="feed-legend">
+<span>回答<span
+class="feed-legend-num">1</span></span>
+<span class="feed-legend-pipe">|</span>
+<span>收藏<span
+class="feed-legend-num">9</span></span>
+<span class="feed-legend-pipe">|</span>
+<span>浏览量<span
+class="feed-legend-num">62</span></span>
+</div>
+</div>
+</li>
+<li>
+<div class="discuss-brief">
+<div class="end-quot">
+<a href='questionterminal/bb2f04018e1b49889f425a53cc477c7corderbyhotvalue0done0~1'
+target="_blank">
+在x86系统下,sizeof如下结构体的值是多少?
+</a>
+</div>
+</div>
+<div class="tags-box">
+<a href="questioncentermutitagids569.htm"
+target="_blank"
+class="tag-label">C/C++</a>
+</div>
+<div class="feed-foot">
+<div class="feed-origin">
+<p class="feed-tip">
+来自<a href="test/915316/summary"
+target="_blank">美团2016研发工程师笔试题（三）</a>
+</p>
+</div>
+<div class="feed-legend">
+<span>回答<span
+class="feed-legend-num">1</span></span>
+<span class="feed-legend-pipe">|</span>
+<span>收藏<span
+class="feed-legend-num">3</span></span>
+<span class="feed-legend-pipe">|</span>
+<span>浏览量<span
+class="feed-legend-num">71</span></span>
+</div>
+</div>
+</li>
+<li>
+<div class="discuss-brief">
+<div class="end-quot">
+<a href='questionterminal/4a12b5e3229946a995b6a743479a433dorderbyhotvalue0done0~1'
+target="_blank">
+C++中构造函数和析构函数可以抛出异常吗?
+</a>
+</div>
+</div>
+<div class="tags-box">
+<a href="questioncentermutitagids569.htm"
+target="_blank"
+class="tag-label">C/C++</a>
+</div>
+<div class="feed-foot">
+<div class="feed-origin">
+<p class="feed-tip">
+来自<a href="test/915316/summary"
+target="_blank">美团2016研发工程师笔试题（三）</a>
+</p>
+</div>
+<div class="feed-legend">
+<span>回答<span
+class="feed-legend-num">1</span></span>
+<span class="feed-legend-pipe">|</span>
+<span>收藏<span
+class="feed-legend-num">6</span></span>
+<span class="feed-legend-pipe">|</span>
+<span>浏览量<span
+class="feed-legend-num">58</span></span>
+</div>
+</div>
+</li>
+<li>
+<div class="discuss-brief">
+<div class="end-quot">
+<a href='questionterminal/e04a854db0f740c5bc11b64604058c8eorderbyhotvalue0done0~1'
+target="_blank">
+以下哪个属于在预编译阶段执行____,以下哪些指令属于操作符___
+</a>
+</div>
+</div>
+<div class="tags-box">
+<a href="questioncentermutitagids569.htm"
+target="_blank"
+class="tag-label">C/C++</a>
+</div>
+<div class="feed-foot">
+<div class="feed-origin">
+<p class="feed-tip">
+来自<a href="test/915316/summary"
+target="_blank">美团2016研发工程师笔试题（三）</a>
+</p>
+</div>
+<div class="feed-legend">
+<span>回答<span
+class="feed-legend-num">1</span></span>
+<span class="feed-legend-pipe">|</span>
+<span>收藏<span
+class="feed-legend-num">3</span></span>
+<span class="feed-legend-pipe">|</span>
+<span>浏览量<span
+class="feed-legend-num">67</span></span>
+</div>
+</div>
+</li>
+<li>
+<div class="discuss-brief">
+<div class="end-quot">
+<a href='questionterminal/e4a13f5bef0f4108989710ca4dfe3007orderbyhotvalue0done0~1'
+target="_blank">
+请问在32位系统中,sizeof(list_t)的值为?
+</a>
+</div>
+</div>
+<div class="tags-box">
+<a href="questioncentermutitagids569.htm"
+target="_blank"
+class="tag-label">C/C++</a>
+</div>
+<div class="feed-foot">
+<div class="feed-origin">
+<p class="feed-tip">
+来自<a href="test/915316/summary"
+target="_blank">美团2016研发工程师笔试题（三）</a>
+</p>
+</div>
+<div class="feed-legend">
+<span>回答<span
+class="feed-legend-num">1</span></span>
+<span class="feed-legend-pipe">|</span>
+<span>收藏<span
+class="feed-legend-num">3</span></span>
+<span class="feed-legend-pipe">|</span>
+<span>浏览量<span
+class="feed-legend-num">77</span></span>
+</div>
+</div>
+</li>
+<li>
+<div class="discuss-brief">
+<div class="end-quot">
+<a href='questionterminal/772c1e2c77ef408d8b25e706bc2ab434orderbyhotvalue0done0~1'
+target="_blank">
+具有相同类型的指针类型变量p与数组a,不能进行的操作是:
+</a>
+</div>
+</div>
+<div class="tags-box">
+<a href="questioncentermutitagids569.htm"
+target="_blank"
+class="tag-label">C/C++</a>
+</div>
+<div class="feed-foot">
+<div class="feed-origin">
+<p class="feed-tip">
+来自<a href="test/915316/summary"
+target="_blank">美团2016研发工程师笔试题（三）</a>
+</p>
+</div>
+<div class="feed-legend">
+<span>回答<span
+class="feed-legend-num">0</span></span>
+<span class="feed-legend-pipe">|</span>
+<span>收藏<span
+class="feed-legend-num">2</span></span>
+<span class="feed-legend-pipe">|</span>
+<span>浏览量<span
+class="feed-legend-num">11</span></span>
+</div>
+</div>
+</li>
+<li>
+<div class="discuss-brief">
+<div class="end-quot">
+<a href='questionterminal/36a07ad112f14cc884ec6c984c4d2241orderbyhotvalue0done0~1'
+target="_blank">
+以下代码输出什么?
+</a>
+</div>
+</div>
+<div class="tags-box">
+<a href="questioncentermutitagids569.htm"
+target="_blank"
+class="tag-label">C/C++</a>
+</div>
+<div class="feed-foot">
+<div class="feed-origin">
+<p class="feed-tip">
+来自<a href="test/915316/summary"
+target="_blank">美团2016研发工程师笔试题（三）</a>
+</p>
+</div>
+<div class="feed-legend">
+<span>回答<span
+class="feed-legend-num">1</span></span>
+<span class="feed-legend-pipe">|</span>
+<span>收藏<span
+class="feed-legend-num">4</span></span>
+<span class="feed-legend-pipe">|</span>
+<span>浏览量<span
+class="feed-legend-num">6</span></span>
+</div>
+</div>
+</li>
+<li>
+<div class="discuss-brief">
+<div class="end-quot">
+<a href='questionterminal/ca8eeb490bac45cbaa89e9ec77766f78orderbyhotvalue0done0~1'
+target="_blank">
+以下多线程对int型变量x的操作,哪个不需要进行同步()
+</a>
+</div>
+</div>
+<div class="tags-box">
+<a href="questioncentermutitagids570.htm"
+target="_blank"
+class="tag-label">Java</a>
+<a href="questioncentermutitagids569.htm"
+target="_blank"
+class="tag-label">C/C++</a>
+</div>
+<div class="feed-foot">
+<div class="feed-origin">
+<p class="feed-tip">
+来自<a href="test/902031/summary"
+target="_blank">搜狐2016研发工程师笔试题</a>
+</p>
+</div>
+<div class="feed-legend">
+<span>回答<span
+class="feed-legend-num">3</span></span>
+<span class="feed-legend-pipe">|</span>
+<span>收藏<span
+class="feed-legend-num">16</span></span>
+<span class="feed-legend-pipe">|</span>
+<span>浏览量<span
+class="feed-legend-num">267</span></span>
+</div>
+</div>
+</li>
+<li>
+<div class="discuss-brief">
+<div class="end-quot">
+<a href='questionterminal/52f38d6745704896b6d6c1daf2cb838eorderbyhotvalue0done0~1'
+target="_blank">
+以上程序输出是多少?
+</a>
+</div>
+</div>
+<div class="tags-box">
+<a href="questioncentermutitagids569.htm"
+target="_blank"
+class="tag-label">C/C++</a>
+</div>
+<div class="feed-foot">
+<div class="feed-origin">
+<p class="feed-tip">
+来自<a href="test/902031/summary"
+target="_blank">搜狐2016研发工程师笔试题</a>
+</p>
+</div>
+<div class="feed-legend">
+<span>回答<span
+class="feed-legend-num">6</span></span>
+<span class="feed-legend-pipe">|</span>
+<span>收藏<span
+class="feed-legend-num">10</span></span>
+<span class="feed-legend-pipe">|</span>
+<span>浏览量<span
+class="feed-legend-num">203</span></span>
+</div>
+</div>
+</li>
+<li>
+<div class="discuss-brief">
+<div class="end-quot">
+<a href='questionterminal/54399ca5ba4946638f208651aeec52fborderbyhotvalue0done0~1'
+target="_blank">
+下面四个类A,B,C,D,在32位机器上sizeof(A),sizeof(B),sizeof(C),sizeof(D)值分别为？
+</a>
+</div>
+</div>
+<div class="tags-box">
+<a href="questioncentermutitagids569.htm"
+target="_blank"
+class="tag-label">C/C++</a>
+</div>
+<div class="feed-foot">
+<div class="feed-origin">
+<p class="feed-tip">
+来自<a href="test/902031/summary"
+target="_blank">搜狐2016研发工程师笔试题</a>
+</p>
+</div>
+<div class="feed-legend">
+<span>回答<span
+class="feed-legend-num">2</span></span>
+<span class="feed-legend-pipe">|</span>
+<span>收藏<span
+class="feed-legend-num">20</span></span>
+<span class="feed-legend-pipe">|</span>
+<span>浏览量<span
+class="feed-legend-num">141</span></span>
+</div>
+</div>
+</li>
+<li>
+<div class="discuss-brief">
+<div class="end-quot">
+<a href='questionterminal/9a4991484ea74f9eb91aea062d4d2b47orderbyhotvalue0done0~1'
+target="_blank">
+下面()执行dynamic_cast不会失败？
+</a>
+</div>
+</div>
+<div class="tags-box">
+<a href="questioncentermutitagids569.htm"
+target="_blank"
+class="tag-label">C/C++</a>
+</div>
+<div class="feed-foot">
+<div class="feed-origin">
+<p class="feed-tip">
+来自<a href="test/902031/summary"
+target="_blank">搜狐2016研发工程师笔试题</a>
+</p>
+</div>
+<div class="feed-legend">
+<span>回答<span
+class="feed-legend-num">3</span></span>
+<span class="feed-legend-pipe">|</span>
+<span>收藏<span
+class="feed-legend-num">21</span></span>
+<span class="feed-legend-pipe">|</span>
+<span>浏览量<span
+class="feed-legend-num">128</span></span>
+</div>
+</div>
+</li>
+<li>
+<div class="discuss-brief">
+<div class="end-quot">
+<a href='questionterminal/f38ddc9c23e1453fb56fa80e26225e9forderbyhotvalue0done0~1'
+target="_blank">
+C++中，下面四个表达式中错误的一项是()
+</a>
+</div>
+</div>
+<div class="tags-box">
+<a href="questioncentermutitagids569.htm"
+target="_blank"
+class="tag-label">C/C++</a>
+</div>
+<div class="feed-foot">
+<div class="feed-origin">
+<p class="feed-tip">
+来自<a href="test/895264/summary"
+target="_blank">完美世界2016研发工程师笔试题</a>
+</p>
+</div>
+<div class="feed-legend">
+<span>回答<span
+class="feed-legend-num">1</span></span>
+<span class="feed-legend-pipe">|</span>
+<span>收藏<span
+class="feed-legend-num">15</span></span>
+<span class="feed-legend-pipe">|</span>
+<span>浏览量<span
+class="feed-legend-num">210</span></span>
+</div>
+</div>
+</li>
+<li>
+<div class="discuss-brief">
+<div class="end-quot">
+<a href='questionterminal/8342002e85cc4485b6a5d0a6c166bcc9orderbyhotvalue0done0~1'
+target="_blank">
+问x(x(8)需要调用几次函数x(int n)
+</a>
+</div>
+</div>
+<div class="tags-box">
+<a href="questioncentermutitagids569.htm"
+target="_blank"
+class="tag-label">C/C++</a>
+</div>
+<div class="feed-foot">
+<div class="feed-origin">
+<p class="feed-tip">
+来自<a href="test/895264/summary"
+target="_blank">完美世界2016研发工程师笔试题</a>
+</p>
+</div>
+<div class="feed-legend">
+<span>回答<span
+class="feed-legend-num">1</span></span>
+<span class="feed-legend-pipe">|</span>
+<span>收藏<span
+class="feed-legend-num">14</span></span>
+<span class="feed-legend-pipe">|</span>
+<span>浏览量<span
+class="feed-legend-num">155</span></span>
+</div>
+</div>
+</li>
+<li>
+<div class="discuss-brief">
+<div class="end-quot">
+<a href='questionterminal/9f6d2d9cba5c48a9bc9a2c32be3a049aorderbyhotvalue0done0~1'
+target="_blank">
+以下说法那个正确?
+</a>
+</div>
+</div>
+<div class="tags-box">
+<a href="questioncentermutitagids569.htm"
+target="_blank"
+class="tag-label">C/C++</a>
+</div>
+<div class="feed-foot">
+<div class="feed-origin">
+<p class="feed-tip">
+来自<a href="test/877605/summary"
+target="_blank">爱奇艺2016研发工程师笔试题（三）</a>
+</p>
+</div>
+<div class="feed-legend">
+<span>回答<span
+class="feed-legend-num">1</span></span>
+<span class="feed-legend-pipe">|</span>
+<span>收藏<span
+class="feed-legend-num">17</span></span>
+<span class="feed-legend-pipe">|</span>
+<span>浏览量<span
+class="feed-legend-num">224</span></span>
+</div>
+</div>
+</li>
+<li>
+<div class="discuss-brief">
+<div class="end-quot">
+<a href='questionterminal/58c525f2271d4e0a9076677f444ca74dorderbyhotvalue0done0~1'
+target="_blank">
+下面的结果是？
+</a>
+</div>
+</div>
+<div class="tags-box">
+<a href="questioncentermutitagids569.htm"
+target="_blank"
+class="tag-label">C/C++</a>
+</div>
+<div class="feed-foot">
+<div class="feed-origin">
+<p class="feed-tip">
+来自<a href="test/871788/summary"
+target="_blank">网易2016研发工程师笔试题</a>
+</p>
+</div>
+<div class="feed-legend">
+<span>回答<span
+class="feed-legend-num">1</span></span>
+<span class="feed-legend-pipe">|</span>
+<span>收藏<span
+class="feed-legend-num">11</span></span>
+<span class="feed-legend-pipe">|</span>
+<span>浏览量<span
+class="feed-legend-num">294</span></span>
+</div>
+</div>
+</li>
+<li>
+<div class="discuss-brief">
+<div class="end-quot">
+<a href='questionterminal/152debc9872b42f1aab6855cf299a07dorderbyhotvalue0done0~1'
+target="_blank">
+写一个函数返回1+2+3+&hellip;+n的值（假定结果不会超过长整型变量的范围）   
+</a>
+</div>
+</div>
+<div class="tags-box">
+<a href="questioncentermutitagids569.htm"
+target="_blank"
+class="tag-label">C/C++</a>
+</div>
+<div class="feed-foot">
+<div class="feed-origin">
+<p class="feed-tip">
+</p>
+</div>
+<div class="feed-legend">
+<span>回答<span
+class="feed-legend-num">1</span></span>
+<span class="feed-legend-pipe">|</span>
+<span>收藏<span
+class="feed-legend-num">3</span></span>
+<span class="feed-legend-pipe">|</span>
+<span>浏览量<span
+class="feed-legend-num">347</span></span>
+</div>
+</div>
+</li>
+<li>
+<div class="discuss-brief">
+<div class="end-quot">
+<a href='questionterminal/a903ebe93add411d9c94b114f5fabb36orderbyhotvalue0done0~1'
+target="_blank">
+请写一个C函数，若处理器是Big_endian的，则返回0；若是Little_endian的，则返回1  
+</a>
+</div>
+</div>
+<div class="tags-box">
+<a href="questioncentermutitagids569.htm"
+target="_blank"
+class="tag-label">C/C++</a>
+</div>
+<div class="feed-foot">
+<div class="feed-origin">
+<p class="feed-tip">
+</p>
+</div>
+<div class="feed-legend">
+<span>回答<span
+class="feed-legend-num">1</span></span>
+<span class="feed-legend-pipe">|</span>
+<span>收藏<span
+class="feed-legend-num">7</span></span>
+<span class="feed-legend-pipe">|</span>
+<span>浏览量<span
+class="feed-legend-num">378</span></span>
+</div>
+</div>
+</li>
+<li>
+<div class="discuss-brief">
+<div class="end-quot">
+<a href='questionterminal/5c2f7a22343e40179bea3a3cdeace8fborderbyhotvalue0done0~1'
+target="_blank">
+请说出static和const关键字尽可能多的作用
+</a>
+</div>
+</div>
+<div class="tags-box">
+<a href="questioncentermutitagids569.htm"
+target="_blank"
+class="tag-label">C/C++</a>
+</div>
+<div class="feed-foot">
+<div class="feed-origin">
+<p class="feed-tip">
+</p>
+</div>
+<div class="feed-legend">
+<span>回答<span
+class="feed-legend-num">1</span></span>
+<span class="feed-legend-pipe">|</span>
+<span>收藏<span
+class="feed-legend-num">10</span></span>
+<span class="feed-legend-pipe">|</span>
+<span>浏览量<span
+class="feed-legend-num">329</span></span>
+</div>
+</div>
+</li>
+<li>
+<div class="discuss-brief">
+<div class="end-quot">
+<a href='questionterminal/d480ff83e1594b9fbd74bb102094a493orderbyhotvalue0done0~1'
+target="_blank">
+编写类String的构造函数、析构函数和赋值函数
+</a>
+</div>
+</div>
+<div class="tags-box">
+<a href="questioncentermutitagids569.htm"
+target="_blank"
+class="tag-label">C/C++</a>
+</div>
+<div class="feed-foot">
+<div class="feed-origin">
+<p class="feed-tip">
+</p>
+</div>
+<div class="feed-legend">
+<span>回答<span
+class="feed-legend-num">2</span></span>
+<span class="feed-legend-pipe">|</span>
+<span>收藏<span
+class="feed-legend-num">10</span></span>
+<span class="feed-legend-pipe">|</span>
+<span>浏览量<span
+class="feed-legend-num">304</span></span>
+</div>
+</div>
+</li>
+</ul>
+<div class="pagination">
+<ul data-total="20">
+<li class="txt-pager disabled js-first-pager"><a data-page="1" href="javascript:void(0)">首页</a></li>
+<li class="txt-pager disabled js-pre-pager"><a data-page="1" href="javascript:void(0)">上一页</a></li>
+<li class="active js-1-pager"><a href="javascript:void(0)" data-page="1">1</a></li>
+<li class="js-2-pager"><a href="questioncenterorderbyhotvalue0mutitagids569onlyrefere~1" data-page="2">2</a></li>
+<li class="js-3-pager"><a href="questioncenterorderbyhotvalue0mutitagids569onlyrefer~2" data-page="3">3</a></li>
+<li class="js-4-pager"><a href="questioncenterorderbyhotvalue0mutitagids569onlyrefer~3" data-page="4">4</a></li>
+<li class="js-5-pager"><a href="questioncenterorderbyhotvalue0mutitagids569onlyrefer~4" data-page="5">5</a></li>
+<li class="js-6-pager"><a href="questioncenterorderbyhotvalue0mutitagids569onlyrefer~5" data-page="6">6</a></li>
+<li class="js-7-pager"><a href="questioncenterorderbyhotvalue0mutitagids569onlyrefer~6" data-page="7">7</a></li>
+<li class="js-8-pager"><a href="questioncenterorderbyhotvalue0mutitagids569onlyrefer~7" data-page="8">8</a></li>
+<li class="txt-pager js-next-pager"><a data-page="2" href="questioncenterorderbyhotvalue0mutitagids569onlyrefere~1">下一页</a></li>
+<li class="txt-pager js-last-pager"><a data-page="20" href="questioncenterorderbyhotvalue0mutitagids569onlyrefer~8">末页</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="fixed-menu">
+<ul>
+<li>
+<a href="#top" class="gotop" title="回到顶部" id="gotop"></a>
+</li>
+<li>
+<a class="fixed-wb" target="_blank" href="../www.weibo.com/nowcoder"></a>
+</li>
+<li>
+<a href="tencent_3a/groupwpa/subcmdallparam7b2267726f757055696e223a313537353934373~1" class="qq" title="QQ"></a>
+</li>
+<li>
+<a href="javascript:void(0);" class="wx"></a>
+<div class="wx-qrcode">
+<img src="../static.nowcoder.com/images/wx-rcode.jpg" alt="二维码" />
+<p>扫描二维码，关注牛客网</p>
+</div>
+</li>
+<li>
+<a href="discuss/30" class="feedback" title="意见反馈"></a>
+<a href="discuss/30" class="feedback-letter">意见反馈</a>
+</li>
+<li>
+<a href="javascript:void(0);" class="qrcode"></a>
+<div class="wx-qrcode">
+<img src="../uploadfiles.nowcoder.com/app/android/app.png" alt="二维码" />
+<p>下载牛客APP，随时随地刷题</p>
+</div>
+</li>
+</ul>
+<div class="phone-qrcode" style="display:none;">
+<a href="javascript:void(0);" class="qrcode-close">x</a>
+<img src="../uploadfiles.nowcoder.com/app/android/app.png" alt="二维码" style="width:70px;height:70px;" />
+<p>扫一扫下载牛客APP</p>
+</div>
+</div>
+<div class="ft-wrap">
+<div class="ft-cont clearfix">
+<div class="ft-main">
+<ul class="ft-links">
+<li><a href="html/aboutus.htm">关于我们</a></li>
+<li><a href="html/joinus.htm">加入我们</a></li>
+<li><a href="discuss/30" target="_blank">意见反馈</a></li>
+<li><a href="html/services.htm">企业服务</a></li>
+<li><a href="html/cooperation.htm">网站合作</a></li>
+<li><a href="javascript:void(0);" class="nc-req-auth nc-req-active js-test-vm">模拟终端</a></li>
+<li><a href="html/disclaimer.htm">免责声明</a></li>
+<li><a href="html/links.htm">友情链接</a></li>
+</ul>
+<ul class="webrights">
+<li><a href="default.htm">牛客网&copy;2015 All rights reserved</a></li>
+<li><a href="default.htm">浙ICP备14000860号-2</a></li>
+</ul>
+</div>
+<dl class="ft-web-info">
+<dt class="ft-web-name">牛客网，最大IT笔试面试题库</dt>
+<dd class="ft-info-item">QQ群：272820159</dd>
+<dd class="ft-info-item">微 信：www_nowcoder_com
+<a href="javascript:;" class="btn btn-primary btn-xs">关注
+<div class="tooltip top">
+<div class="tooltip-arrow"></div>
+<div class="tooltip-inner"><img width="80" src="../static.nowcoder.com//images/wx-rcode.jpg" /></div>
+</div>
+</a>
+</dd>
+<dd class="ft-info-item">微 博：牛客网
+<a href="../weibo.com/nowcoder" class="btn btn-primary btn-xs" target="_blank">关注
+</a>
+</dd>
+</dl>
+<div class="ft-app">
+<div class="ft-qrcode-box">
+<img width="128" src="../uploadfiles.nowcoder.com/app/app_download.png" />
+</div>
+<p>扫一扫，把题目装进口袋</p>
+</div>
+</div>
+</div>
+
+</div>
+<script src="../static.nowcoder.com/nowcoder/1.2.348/javascripts/sea.js" type="text/javascript"></script>
+<script src="../static.nowcoder.com/nowcoder/1.2.348/javascripts/base.js"></script>
+<script type="text/javascript">
+seajs.use('nowcoder/1.2.348/javascripts/site/common/index');
+seajs.use('nowcoder/1.2.348/javascripts/site/common/nav');
+</script>
+<span id='cnzz_stat_icon_1253353781' style="display:none;"></span>
+<script type="text/javascript">
+window.parameter = {
+mutiTagIds: '569',
+questionTypes: '',
+difficulty: '',
+from: '',
+onlyReference: 'false'
+};
+seajs.use('nowcoder/1.2.348/javascripts/site/contest/questionCenter');
+</script>
+</body>
+</html>

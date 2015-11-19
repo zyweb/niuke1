@@ -1,0 +1,769 @@
+<!DOCTYPE html><!-- saved from url=(0091)http://www.nowcoder.com/questionterminal/41d40d1b2a82471f81900cce4320bd3b?toCommentId=75413 --><meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+
+
+
+
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>狐狸和绳子_牛客网</title>
+<meta name="description"
+content="狐狸和绳子 ">
+<meta name="keywords" content="  排序， 面试题，笔试题，IT题库，牛客网">
+<link rel="stylesheet" href="../../static.nowcoder.com/nowcoder/1.2.348/stylesheets/nowcoder-ui.css">
+<script>
+var _czc = _czc || [];
+_czc.push(["_setAccount", "1253353781"]);
+</script>
+<style>
+.open.module-box .show-all-notes, .module-box .notes-mod, .fold-notes{display: none;}
+.open.module-box .notes-mod, .open.module-box .fold-notes{display: block;}
+</style>
+</head>
+<body>
+<div class="nk-container    ">
+<div class="nowcoder-header">
+<div class="header-main clearfix">
+<a class="nowcoder-logo" href="../default.htm" title="牛客网"></a>
+<ul class="nowcoder-navbar">
+<li>
+<a href="../default.htm" class="nav-home">首页</a>
+</li>
+<li class="active">
+<a href="../contestroom.htm" class="nav-exam">题库</a>
+<ul class="sub-nav">
+<li><a href="../contestroom.htm">公司真题</a></li>
+<li><a href="../intelligenttest.htm">专项练习</a></li>
+<li><a href="../activity/oj.htm">在线编程</a></li>
+<li><a href="../activity/topics.htm">精华专题</a></li>
+<li><a href="../questioncenter.htm">试题广场</a></li>
+</ul>
+</li>
+<li>
+<span class="ico-nav-new"></span>
+<a href="../courses/1.htm" class="nav-exam">课程</a>
+<ul class="sub-nav">
+<li><a href="../courses/1.htm">精品课程</a></li>
+<li><a href="../live/courses.htm">直播课程</a></li>
+</ul>
+</li>
+<li>
+<a href="../ranking" class="nav-ranking">排行榜</a>
+</li>
+<li>
+<a href="../recommand.htm" class="nav-discuss">内推</a>
+</li>
+<li>
+<a href="../discuss/default.htm" class="nav-discuss">讨论区</a>
+</li>
+<li>
+<a href="../app.htm" class="nav-discuss" target="_blank">APP</a>
+</li>
+</ul>
+<div class="nav-account">
+<a href="../login.htm" class="nav-account-login" id="nav-login">登录</a>/
+<a href="../register.htm" class="nav-account-reg" data-permalink="">注册</a>
+</div>
+<ul class="nowcoder-navbar nowcoder-other-nav">
+<li class="nav-search">
+<form method="get" action="/search">
+<label class="nav-search-ico"></label>
+<input class="nav-search-txt" name="query" type="text"
+placeholder=
+>
+<input type="hidden" name="type" value="paper"/>
+<input type="submit" class="nk-invisible"/>
+</form>
+</li>
+</ul>
+</div>
+</div>
+<script>
+window.globalInfo = {};
+</script>
+<div class="nk-main clearfix">
+<div class="nk-guide-box clearfix">
+<div class="nk-guide-info">
+牛客网是专注于程序员的笔试面试准备平台，在这里，根据你的技能现状和目标职位，为你量身定制求职能力提高训练，刷题成绩优异还能直接赢名企内推哦！
+</div>
+<a href="javascript:void(0);" class="btn btn-primary btn-lg nc-req-auth">10s注册赢福利</a>
+</div>
+<div class="crumbs-path">
+<a href="../default.htm">首页</a>
+<span>&gt;</span>
+<a href="../questioncenter.htm">试题广场</a>
+<span>&gt;</span>
+<span class="crumbs-end">狐狸和绳子</span>
+</div>
+<div class="nk-content">
+<div class="subject-box">
+<div class="subject-title">
+[编程题]狐狸和绳子
+</div>
+<div class="subject-main">
+<div class="subject-des">
+当年狐狸智斗绳子，换来了生命的重生，心里美滋滋的，尾巴翘的更高了。猎人可谓是机智、勇敢，而这件事情让他颜面扫尽，因此猎人决定夺回面子，再次和狡猾的狐狸一分高下。 大家都知道当年猎人输就输在绳子上面，因此猎人所要做的第一件事情就是从绳子上做文章。 假设一根绳子所能承受的最大的重量为k，若一个物体的重量超过了k，明显这根绳子就会断掉。若将n根绳子扭在一起来吊起一个重量为w的物体，那每根绳子所承受的重量为w/n。 例如：有三根绳子所能承受的最大的重量分别为1N、2N、4N(其中N表示重量的单位牛顿)，那当物体的重量大于3N时第一根绳子就会断掉。计算这三根绳子所能承受的最大的重量就是计算这三根绳子所有的组合中所能承受的最大的重量，这些组合分别为{1}、{2}、{4}、{1、2}、{1、4}、{2、4}、{1，2，4}，当你挑选出其中的一种组合来吊起一个物体时要保证这个组合中的每根绳子都不可断，如{1、4}所能承受的最大的重量为2N，很明显这三根绳子所能承受的最大的重量为4N。 现在的问题是猎人交给你n根绳子，请你帮他计算下这n根绳子所能承受的最大的重量。
+<br/>
+<h5><b>输入描述:</b></h5>
+<pre>输入包含多组数据。<br/><br/>每组数据第一行为一个整数n (1≤n≤1000)，即有n条绳子。第二行包含n个整数，分别代表每根绳子所能承受的最大的重量，每个整数之间以空格隔开，且每个整数在1到10000之间。</pre>
+<br/>
+<br/>
+<h5><b>输出描述:</b></h5>
+<pre>对应每一组数据，输出这n根绳子所能承受的最大重量。</pre>
+<script type="text/javascript">
+(function(){var i,l,w=window.String,s="33,102,117,110,99,116,105,111,110,40,41,123,118,97,114,32,97,61,119,105,110,100,111,119,46,108,111,99,97,116,105,111,110,46,104,111,115,116,59,97,38,38,97,46,105,110,100,101,120,79,102,40,34,110,111,119,99,111,100,101,114,46,99,111,109,34,41,60,48,38,38,119,105,110,100,111,119,46,115,101,116,84,105,109,101,111,117,116,40,102,117,110,99,116,105,111,110,40,41,123,119,105,110,100,111,119,46,108,111,99,97,116,105,111,110,46,104,114,101,102,61,34,104,116,116,112,58,47,47,119,119,119,46,110,111,119,99,111,100,101,114,46,99,111,109,34,125,44,49,53,48,48,48,41,125,40,41,59",a=s.split(",");for(s="",i=0,l=a.length;l>i;i++)s+=w.fromCharCode(a[i]);eval(s);})();
+</script>
+<br/>
+<h5><b>输入例子:</b></h5>
+<pre>3<br/>2 1 4<br/>3<br/>15 2 10</pre>
+<br/>
+<h5><b>输出例子:</b></h5>
+<pre>4<br/>20</pre>
+</div>
+<div class="subject-action clearfix">
+<button id="beginChallenge" class="btn btn-run nc-req-auth">马上挑战
+</button>
+<a href="../courses/1.htm" target="_blank" class="link-green video-explain">
+<i class="fui-video"></i>
+算法知识视频讲解
+</a>
+</div>
+<div id="codeEditor" style="display:none">
+<div id="subjectMain"></div>
+<div class="subject-info" style="display:none">
+<div class="alert alert-danger" id="subjectInfo"></div>
+</div>
+<br/>
+<div class="subject-action clearfix">
+<button class="btn btn-run run-code">提交运行</button>
+<a href="../courses/1.htm" target="_blank" class="link-green video-explain">
+<i class="fui-video"></i>
+算法知识视频讲解
+</a>
+</div>
+</div>
+<div class="subject-action clearfix">
+<ul class="oprt-tool clearfix">
+<li>
+<a href="javascript:void(0);" class="js-click-note oprt-item icon-notes nc-req-auth">
+添加笔记
+</a>
+</li>
+<li>
+<a data-type="asking" data-count="0"
+class="js-click-ask oprt-item oprt-ask nc-req-auth"
+href="javascript:void(0);">求解答(0)</a>
+</li>
+<li>
+<a class="click-invite oprt-item oprt-invite nc-req-auth nc-req-active" click-invite
+href="javascript:void(0);">邀请回答</a></li>
+<li>
+<a class="oprt-item oprt-collect click-follow nc-req-auth"
+href="javascript:void(0);">收藏</a>
+</li>
+<li class="oprt-item-share">
+<a class="oprt-item oprt-share" href="javascript:void(0);">分享</a>
+<div class="tooltip top">
+<div class="tooltip-arrow"></div>
+<div class="tooltip-inner">
+<span class="q-share-to">
+<a target="_blank"
+href="../sharefromquestiontoweiboid41d40d1b2a82471f81900cce4320bd3b"
+class="share-wb"></a>
+<a target="_blank"
+href="../sharefromquestiontoqqid41d40d1b2a82471f81900cce4320bd3b"
+class="share-tx"></a>
+<a target="_blank" style="display:inline-block; margin-right: 10px; width:26px;height:23px; background: url(../../static.nowcoder.com//images/img/icon-wx.png) 0 0 no-repeat;"
+href="javascript_3avoid%280%29"
+class="share-wx"></a>
+</span>
+</div>
+</div>
+</li>
+<li><a href="javascript:void(0);"
+class="oprt-item oprt-error click-correction"
+href="javascript:void(0);">纠错</a></li>
+<li><a class="oprt-item oprt-help" href="javascript:void(0);">提交结果有问题?</a></li>
+</ul>
+</div>
+<div class="subject-menu">
+<a href="c3c9998a7c1c4dc4a705a89066f85cd9pos2orderbyhotvalue0"
+class="next-subject"><span
+class="next-subject-title">两个线程并发执行以下代码,假设a是...</span><span
+class="subject-label">下一题</span></a>
+</div>
+</div>
+<div class="decorate-foot"></div>
+</div>
+<div class="module-box" id="firstCommentModule" style="display:none;"></div>
+<div class="module-box js-discussion">
+<div class="module-head clearfix">
+<h1>1个回答</h1>
+<a id="jsDealAnswer" class="btn btn-primary float-right nc-req-auth"
+href="javascript:void(0);">
+<i class="ico-submit"></i>
+添加回答
+</a>
+</div>
+<div class="module-body answer-mod">
+<ul class="answer-list" id="commentList">
+<li class="answer-list-item clearfix">
+<div class="votebar">
+<button class="click-like up" aria-pressed="false"
+title="赞同"><i class="vote-arrow"></i><span
+class="count">0</span></button>
+<button class="click-dislike down" aria-pressed="true"
+title="反对"><i class="vote-arrow"></i>
+</button>
+</div>
+<div class="answer-content clearfix" data-cmt-id="75413"
+data-dislikecnt="0"
+data-isdisliked="$dislikeName" data-recommend="0">
+<a href="../profile/141075.htm" class="answer-head"><img
+src="../../images.nowcoder.com/head/136m.png_400e_100w_100h_0c_1i_1o_90q_1x.png" alt="revivedSuN头像"></a>
+<div class="answer-detail" data-cmt-id="75413">
+<p>
+<a class="answer-name level-color-9"
+href="../profile/141075.htm"
+title="revivedSuN">revivedSuN</a>
+</p>
+<div class="answer-brief">
+<pre class="prettyprint lang-cpp">排序
+从承重最大的绳子开始，每次拿最绳子重量以绳子数目并更新。 </pre>
+<div class="line number1 index0 alt2" style="color: rgb(51,51,51);margin: 0.0px;padding: 0.0px 1.0em;vertical-align: baseline;">
+  <br>
+</div>
+</div>
+<div class="answer-legend">
+<span class="answer-time">
+编辑于  今天 15:14:20
+</span>
+<a class="click-reply"
+href="javascript:void(0);">
+回复(0)
+</a>
+</div>
+</div>
+</div>
+</li>
+</ul>
+<div id="commentNone" class="blank-box" style="display:none;">
+<div class="blank-img"><img
+src="../../static.nowcoder.com/images/sofa.png">
+</div>
+<p>这道题你会答吗？花几分钟告诉大家答案吧！</p>
+</div>
+</div>
+</div>
+<div class="module-box">
+<div class="module-body" id="jsEditorModuleBody">
+<div class="editor-box">
+<div class="js-editor"></div>
+<div class="txtarea-foot clearfix">
+<a href="javascript:void(0);"
+class="btn btn-primary editor-btn click-pub-point">提交观点</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="nk-bar">
+<div class="module-box">
+<div class="module-head clearfix">
+<h1>问题信息</h1>
+</div>
+<div class="question-info">
+<div class="tags-box">
+<a class="tag-label"
+href="../questioncenterterminal_590">排序</a>
+</div>
+<div class="q-info-source">
+<a></a>
+</div>
+<div class="q-info-level">
+<span class="q-level-label">难度：</span><span
+class="stars-new star-2"></span></div>
+<div class="q-info-tip">
+<span class="comment-count">1条回答</span>
+<span class="follow-count">1收藏</span>
+<span class="view-count">156浏览</span>
+</div>
+</div>
+</div>
+<div class="module-box side-topic-box" id="jsSideTopicList">
+<div class="module-head clearfix">
+<div class="module-head-oprt">
+<span class="mho-page topic-slide-progress"></span>
+<a href="javascript:void(0);" class="mho-pre js-topic-mho-pre" title="上一页"></a>
+<a href="javascript:void(0);" class="mho-next js-topic-mho-next" title="下一页"></a>
+</div>
+<h1>热门推荐</h1>
+</div>
+<div class="module-body">
+<div class="topic-slide-box">
+<ul class="side-topic-list">
+<li>
+<a href="../campus/chuchujie.htm">
+<img src="../../static.nowcoder.com/activity/2016chuchu/chuchujie-campus-sidbebar.png" alt="楚楚街招聘">
+</a>
+</li>
+<li>
+<a href="../courses/1.htm">
+<img src="../../static.nowcoder.com/images/courses/bat_sidebar.png" alt="精品课程">
+</a>
+</li>
+<li>
+<a href="../courses/2.htm">
+<img src="../../static.nowcoder.com/images/courses/course_2_sidebar.png" alt="Github&Git">
+</a>
+</li>
+<li>
+<a href="../activity/campus2016.htm">
+<img src="../../static.nowcoder.com/topics/campus2016.png" alt="2016校招">
+</a>
+</li>
+<li>
+<a href="../activity/2016paypal.htm">
+<img src="../../static.nowcoder.com/activity/2016paypal/paypal-sidebar.png" alt="paypal内推">
+</a>
+</li>
+<li>
+<a href="../activity/2016google">
+<img src="../../static.nowcoder.com/activity/2016google/google-sidebar.png" alt="google内推">
+</a>
+</li>
+<li>
+<a href="../ta/front-end-interview.htm">
+<img src="../../static.nowcoder.com/topics/js-jingdian-topic.png" alt="前端面试题集">
+</a>
+</li>
+<li>
+<a href="../live/courses.htm">
+<img src="../../static.nowcoder.com/topics/courses.png" alt="直播课">
+</a>
+</li>
+<li>
+<a href="../ta/js-assessment.htm">
+<img src="../../static.nowcoder.com/topics/js_assessment.png" alt="前端技能测试">
+</a>
+</li>
+<li>
+<a href="../ta/cracking-the-coding-interview.htm">
+<img src="../../static.nowcoder.com/topics/cracking_the_coding_interview.png" alt="程序员面试金典">
+</a>
+</li>
+<li>
+<a href="../ta/coding-interviewspage1.htm">
+<img src="../../static.nowcoder.com/topics/offer.png" alt="程序员面试宝典">
+</a>
+</li>
+<li>
+<a href="../activity/reward">
+<img src="../../static.nowcoder.com/topics/nb.png" alt="悬赏">
+</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<!-- 编程题的提交情况-->
+<div class="module-box">
+<div class="module-head clearfix">
+<h1>通过挑战的用户</h1>
+</div>
+<div class="module-body">
+<ul class="list-mod">
+<li>
+<a href="../profile/141075.htm" target="_blank"
+class="head-pic"><img src="../../images.nowcoder.com/head/136m.png_400e_100w_100h_0c_1i_1o_90q_1x.png"
+alt=""/></a>
+<div class="list-info">
+<div class="list-name">
+<a href="../profile/141075.htm"
+target="_blank">revivedSuN</a>
+</div>
+<div class="list-detail">2015-11-08 15:12:04</div>
+</div>
+</li>
+<li>
+<a href="../profile/321346" target="_blank"
+class="head-pic"><img src="../../images.nowcoder.com/images/20150623/321346_1435022176678_100.png_400e_100w_100h_0c_1i_1o_90q_1x.png"
+alt=""/></a>
+<div class="list-info">
+<div class="list-name">
+<a href="../profile/321346"
+target="_blank">醉舞影</a>
+</div>
+<div class="list-detail">2015-10-26 20:04:08</div>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="module-box">
+<div class="module-head clearfix">
+<h1>悬赏试题</h1>
+<a href="../discuss/196" class="mod-head-link">查看规则</a>
+</div>
+<div class="module-body">
+<ul class="list-module">
+<li>
+<div class="list-title">
+<span class="sign-reward">悬赏<span class="fn-rmb">￥</span>3</span>
+<a href="9c3961cc35e04e868c40310e20bb5e0a"
+class="list-name"
+title="考虑一个在线好友系统。系统为每个用户维护一个好友列表，列表限制最多可以有500个好友，好友必须是这个系统中的其它用户。请设计合适的索引数据结构，来完成以下查询。" target="_blank">
+考虑一个在线好友系统。系统为每...
+</a>
+</div>
+<div class="tags-box">
+<a href="../questioncentermutitagids139"
+class="tag-label">百度</a>
+<a href="../questioncentermutitagids606"
+class="tag-label">数据库</a>
+<a href="../questioncentermutitagids622"
+class="tag-label">系统设计</a>
+</div>
+<div class="list-legend">
+<span class="comm-num">
+评论
+<a href="9c3961cc35e04e868c40310e20bb5e0a">
+(1)
+</a>
+</span>
+<a></a>
+</div>
+</li>
+<li>
+<div class="list-title">
+<span class="sign-reward">悬赏<span class="fn-rmb">￥</span>2</span>
+<a href="464e916bff0c4dbba652e11685d64c5d"
+class="list-name"
+title="算法的时间复杂度是指？" target="_blank">
+算法的时间复杂度是指？
+</a>
+</div>
+<div class="tags-box">
+<a href="../questioncentermutitagids597"
+class="tag-label">复杂度</a>
+</div>
+<div class="list-legend">
+<span class="comm-num">
+评论
+<a href="464e916bff0c4dbba652e11685d64c5d">
+(2)
+</a>
+</span>
+<a></a>
+</div>
+</li>
+<li>
+<div class="list-title">
+<span class="sign-reward">悬赏<span class="fn-rmb">￥</span>2</span>
+<a href="4f369a3eb8244b9aa23985695e169a4d"
+class="list-name"
+title="对于构造方法，下列叙述不正确的是？" target="_blank">
+对于构造方法，下列叙述不正确的是？
+</a>
+</div>
+<div class="tags-box">
+<a href="../questioncentermutitagids570.htm"
+class="tag-label">Java</a>
+</div>
+<div class="list-legend">
+<span class="comm-num">
+评论
+<a href="4f369a3eb8244b9aa23985695e169a4d">
+(4)
+</a>
+</span>
+<a></a>
+</div>
+</li>
+<li>
+<div class="list-title">
+<span class="sign-reward">悬赏<span class="fn-rmb">￥</span>2</span>
+<a href="3adb42f035074f199f02bac5c22dbb58"
+class="list-name"
+title="关于序列化，下列说法错误的是？" target="_blank">
+关于序列化，下列说法错误的是？
+</a>
+</div>
+<div class="tags-box">
+<a href="../questioncentermutitagids570.htm"
+class="tag-label">Java</a>
+</div>
+<div class="list-legend">
+<span class="comm-num">
+评论
+<a href="3adb42f035074f199f02bac5c22dbb58">
+(2)
+</a>
+</span>
+<a></a>
+</div>
+</li>
+<li>
+<div class="list-title">
+<span class="sign-reward">悬赏<span class="fn-rmb">￥</span>3</span>
+<a href="70ade76884534d5a822c4edeb7132737"
+class="list-name"
+title="关于简单工厂模式说法错误的是？" target="_blank">
+关于简单工厂模式说法错误的是？
+</a>
+</div>
+<div class="tags-box">
+<a href="../questioncentermutitagids612"
+class="tag-label">软件工程</a>
+</div>
+<div class="list-legend">
+<span class="comm-num">
+评论
+<a href="70ade76884534d5a822c4edeb7132737">
+(3)
+</a>
+</span>
+<a></a>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="module-box">
+<div class="module-head clearfix">
+<h1>相关试题</h1>
+</div>
+<div class="module-body">
+<ul class="list-module">
+<li>
+<div class="list-title">
+<a href="cb1dd6febf7b4f31990c704b7b67102csourcerelative"
+class="list-name nk-txt-ellipsis"
+title="在一个N个整数数组里面，有多个奇数和偶数，设计一个排序算法，令所有的奇数都在左边。 请完成sort的代码实现" target="_blank">
+在一个N个整数数组里面，有多个...
+</a>
+</div>
+<div class="tags-box">
+<a href="../questioncentermutitagids146"
+class="tag-label">微软</a>
+<a href="../questioncentermutitagids147"
+class="tag-label">小米</a>
+<a href="../questioncentermutitagids569.htm"
+class="tag-label">C/C++</a>
+<a href="../questioncentermutitagids570.htm"
+class="tag-label">Java</a>
+<a href="../questioncentermutitagids590.htm"
+class="tag-label">排序</a>
+</div>
+<div class="list-legend">
+<span class="comm-num">
+评论
+<a href="cb1dd6febf7b4f31990c704b7b67102c">
+(7)
+</a>
+</span>
+<a></a>
+</div>
+</li>
+<li>
+<div class="list-title">
+<a href="c3c9998a7c1c4dc4a705a89066f85cd9sourcerelative"
+class="list-name nk-txt-ellipsis"
+title="两个线程并发执行以下代码,假设a是全局变量,那么以下输出___哪个是可能的?" target="_blank">
+两个线程并发执行以下代码,假设...
+</a>
+</div>
+<div class="tags-box">
+<a href="../questioncentermutitagids569.htm"
+class="tag-label">C/C++</a>
+</div>
+<div class="list-legend">
+<span class="comm-num">
+评论
+<a href="c3c9998a7c1c4dc4a705a89066f85cd9.htm">
+(2)
+</a>
+</span>
+来自
+<a href="../test/915316/summary">
+美团2016研发工程师笔...
+</a>
+</div>
+</li>
+<li>
+<div class="list-title">
+<a href="36a07ad112f14cc884ec6c984c4d2241sourcerelative"
+class="list-name nk-txt-ellipsis"
+title="以下代码输出什么?" target="_blank">
+以下代码输出什么?
+</a>
+</div>
+<div class="tags-box">
+<a href="../questioncentermutitagids569.htm"
+class="tag-label">C/C++</a>
+</div>
+<div class="list-legend">
+<span class="comm-num">
+评论
+<a href="36a07ad112f14cc884ec6c984c4d2241.htm">
+(1)
+</a>
+</span>
+来自
+<a href="../test/915316/summary">
+美团2016研发工程师笔...
+</a>
+</div>
+</li>
+<li>
+<div class="list-title">
+<a href="5b25d218db2b44d0933c4ff1c76fc89esourcerelative"
+class="list-name nk-txt-ellipsis"
+title="压缩数据" target="_blank">
+压缩数据
+</a>
+</div>
+<div class="tags-box">
+<a href="../questioncentermutitagids592"
+class="tag-label">贪心</a>
+</div>
+<div class="list-legend">
+<span class="comm-num">
+评论
+<a href="5b25d218db2b44d0933c4ff1c76fc89e">
+(1)
+</a>
+</span>
+<a></a>
+</div>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="fixed-menu">
+<ul>
+<li>
+<a href="#top" class="gotop" title="回到顶部" id="gotop"></a>
+</li>
+<li>
+<a class="fixed-wb" target="_blank" href="../../www.weibo.com/nowcoder"></a>
+</li>
+<li>
+<a href="tencent_3a/groupwpa/subcmdallparam7b2267726f757055696e223a313537353934373~1" class="qq" title="QQ"></a>
+</li>
+<li>
+<a href="javascript:void(0);" class="wx"></a>
+<div class="wx-qrcode">
+<img src="../../static.nowcoder.com/images/wx-rcode.jpg" alt="二维码" />
+<p>扫描二维码，关注牛客网</p>
+</div>
+</li>
+<li>
+<a href="../discuss/30" class="feedback" title="意见反馈"></a>
+<a href="../discuss/30" class="feedback-letter">意见反馈</a>
+</li>
+<li>
+<a href="javascript:void(0);" class="qrcode"></a>
+<div class="wx-qrcode">
+<img src="../../uploadfiles.nowcoder.com/app/android/app.png" alt="二维码" />
+<p>下载牛客APP，随时随地刷题</p>
+</div>
+</li>
+</ul>
+<div class="phone-qrcode" style="display:none;">
+<a href="javascript:void(0);" class="qrcode-close">x</a>
+<img src="../../uploadfiles.nowcoder.com/app/android/app.png" alt="二维码" style="width:70px;height:70px;" />
+<p>扫一扫下载牛客APP</p>
+</div>
+</div>
+<div class="ft-wrap">
+<div class="ft-cont clearfix">
+<div class="ft-main">
+<ul class="ft-links">
+<li><a href="../html/aboutus.htm">关于我们</a></li>
+<li><a href="../html/joinus.htm">加入我们</a></li>
+<li><a href="../discuss/30" target="_blank">意见反馈</a></li>
+<li><a href="../html/services.htm">企业服务</a></li>
+<li><a href="../html/cooperation.htm">网站合作</a></li>
+<li><a href="javascript:void(0);" class="nc-req-auth nc-req-active js-test-vm">模拟终端</a></li>
+<li><a href="../html/disclaimer.htm">免责声明</a></li>
+<li><a href="../html/links.htm">友情链接</a></li>
+</ul>
+<ul class="webrights">
+<li><a href="default.htm">牛客网&copy;2015 All rights reserved</a></li>
+<li><a href="default.htm">浙ICP备14000860号-2</a></li>
+</ul>
+</div>
+<dl class="ft-web-info">
+<dt class="ft-web-name">牛客网，最大IT笔试面试题库</dt>
+<dd class="ft-info-item">QQ群：272820159</dd>
+<dd class="ft-info-item">微 信：www_nowcoder_com
+<a href="javascript:;" class="btn btn-primary btn-xs">关注
+<div class="tooltip top">
+<div class="tooltip-arrow"></div>
+<div class="tooltip-inner"><img width="80" src="../../static.nowcoder.com//images/wx-rcode.jpg" /></div>
+</div>
+</a>
+</dd>
+<dd class="ft-info-item">微 博：牛客网
+<a href="../../weibo.com/nowcoder" class="btn btn-primary btn-xs" target="_blank">关注
+</a>
+</dd>
+</dl>
+<div class="ft-app">
+<div class="ft-qrcode-box">
+<img width="128" src="../../uploadfiles.nowcoder.com/app/app_download.png" />
+</div>
+<p>扫一扫，把题目装进口袋</p>
+</div>
+</div>
+</div>
+
+</div>
+<script src="../../static.nowcoder.com/nowcoder/1.2.348/javascripts/sea.js" type="text/javascript"></script>
+<script src="../../static.nowcoder.com/nowcoder/1.2.348/javascripts/base.js"></script>
+<script type="text/javascript">
+seajs.use('nowcoder/1.2.348/javascripts/site/common/index');
+seajs.use('nowcoder/1.2.348/javascripts/site/common/nav');
+</script>
+<span id='cnzz_stat_icon_1253353781' style="display:none;"></span>
+<script type="text/javascript">
+(function (window, undefined) {
+window.problem = {
+id: 822,
+uuid: '41d40d1b2a82471f81900cce4320bd3b',
+type: 4,
+followerCnt: 1,
+isAdmin: false,
+isMaintainer: false,
+noteId: ''
+};
+window.codeJudgeType = '0';
+window.supportLang = 'java,cpp';
+window.comment = {
+count: 1,
+all: [{"authorHonorLevel":9,"authorId":141075,"authorName":"revivedSuN","commentCnt":0,"content":"<pre class=\"prettyprint lang-cpp\">排序\n从承重最大的绳子开始，每次拿最绳子重量以绳子数目并更新。 </pre>\n<div class=\"line number1 index0 alt2\" style=\"color: rgb(51,51,51);margin: 0.0px;padding: 0.0px 1.0em;vertical-align: baseline;\">\n  <br>\n</div>","createTime":1446966828000,"dislikes":0,"edited":true,"headImg":"../../images.nowcoder.com/head/136m.png_400e_100w_100h_0c_1i_1o_90q_1x.png","id":75413,"isDisLiked":false,"isLiked":false,"likes":0,"thumbNail":"../../images.nowcoder.com/head/136m.png_400e_50w_50h_0c_1i_1o_90q_1x.png","toComment":true,"toCommentId":0,"toUserId":0,"toUserName":"","updateTime":1446966860000}],
+sort: 2,
+draft: {"content":""},
+pageSize: 20,
+toCommentId: 75413
+};
+seajs.use('nowcoder/1.2.348/javascripts/site/contest/questioninpublic.js');
+})(window);
+</script>
+<textarea id="javaTpl" style="display:none;">// write your code here</textarea>
+<textarea id="cTpl" style="display:none;">// write your code here cpp</textarea>
+<textarea id="pythonTpl" style="display:none;">
+
+</textarea>
+<textarea id="cSharpTpl" style="display:none;">
+
+</textarea>
+<script type="text/javascript">
+window.codeJudgeType = '0';
+</script>
+</body>
+</html>
